@@ -1,5 +1,6 @@
 {
   "paymentAmount": "$80",
+  "partialPayment": "$5",
   "memoryCardGoal": "500",
   "evaluationDays": "7",
   "contactEmail": "guha@engramme.com",
