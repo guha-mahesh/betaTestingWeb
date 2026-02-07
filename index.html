@@ -49,6 +49,19 @@
       .sidebar { display: none; }
       .main-content { margin-left: 0 !important; }
     }
+    /* Accordion step cards */
+    .step-card .accordion-toggle { cursor: pointer; display: flex; align-items: center; justify-content: space-between; user-select: none; }
+    .step-card .accordion-toggle .chevron { width: 20px; height: 20px; transition: transform 0.25s ease; flex-shrink: 0; color: #787270; }
+    .step-card.collapsed .accordion-toggle .chevron { transform: rotate(-90deg); }
+    .step-card.collapsed .accordion-body { display: none; }
+    /* Checkbox steps */
+    .todo-step { display: flex; align-items: flex-start; gap: 10px; }
+    .todo-step input[type="checkbox"] { accent-color: #262626; width: 18px; height: 18px; margin-top: 1px; flex-shrink: 0; cursor: pointer; border-radius: 4px; }
+    .todo-step.checked > .todo-content { opacity: 0.45; text-decoration: line-through; text-decoration-color: #b0adab; }
+    .todo-step.checked > .todo-content img { opacity: 0.5; }
+    /* Progress bar */
+    .progress-bar-container { background: #e9e8e7; border-radius: 999px; height: 6px; overflow: hidden; }
+    .progress-bar-fill { background: #262626; height: 100%; border-radius: 999px; transition: width 0.4s ease; }
   </style>
 </head>
 <body class="bg-white">
@@ -112,15 +125,19 @@
           Thank you for helping us evaluate the Engramme Assistant. Your goal is to <strong>evaluate <span data-cfg="memoryCardGoal">500</span> memory cards in <span data-cfg="evaluationDays">7</span> days</strong>. You will receive <strong><span data-cfg="paymentAmount">$80</span></strong> after completion of the task. Partial task completion (anything short of the total) will lead to a compensation of <strong><span data-cfg="partialPayment">$5</span></strong>.
         </p>
         <div class="bg-white border border-border-light rounded-2xl p-6 space-y-3">
-          <p class="text-sm font-semibold text-text-heading">Steps to complete:</p>
-          <ol class="space-y-2 text-sm text-text-body">
-            <li class="flex gap-3"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">1</span> <a href="consent.html" class="underline">Sign the consent form</a></li>
-            <li class="flex gap-3"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">2</span> Complete the Engramme AmbI evaluation eligibility form</li>
-            <li class="flex gap-3"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">3</span> <a href="#signup" class="underline">Sign up and install integrations</a></li>
-            <li class="flex gap-3"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">4</span> <a href="#chrome" class="underline">Install the Chrome extension</a></li>
-            <li class="flex gap-3"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">5</span> <a href="#ios" class="underline">Install the iOS app</a></li>
-            <li class="flex gap-3"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">6</span> <a href="#conversations-web" class="underline">Perform your memory evaluations</a></li>
-            <li class="flex gap-3"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">7</span> <a href="#survey" class="underline">Complete the post evaluation survey</a></li>
+          <div class="flex items-center justify-between">
+            <p class="text-sm font-semibold text-text-heading">Steps to complete:</p>
+            <span class="text-xs font-medium text-text-body-light" id="main-progress-label">0/7</span>
+          </div>
+          <div class="progress-bar-container mb-1"><div class="progress-bar-fill" id="main-progress-bar"></div></div>
+          <ol class="space-y-2 text-sm text-text-body" id="main-steps">
+            <li class="flex gap-3 items-center" data-main-step="1"><input type="checkbox" class="main-step-cb" style="accent-color:#262626;width:18px;height:18px;cursor:pointer;flex-shrink:0;"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">1</span> <a href="consent.html" class="underline">Sign the consent form</a></li>
+            <li class="flex gap-3 items-center" data-main-step="2"><input type="checkbox" class="main-step-cb" style="accent-color:#262626;width:18px;height:18px;cursor:pointer;flex-shrink:0;"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">2</span> Complete the Engramme AmbI evaluation eligibility form</li>
+            <li class="flex gap-3 items-center" data-main-step="3"><input type="checkbox" class="main-step-cb" style="accent-color:#262626;width:18px;height:18px;cursor:pointer;flex-shrink:0;"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">3</span> <a href="#signup" class="underline">Sign up and install integrations</a></li>
+            <li class="flex gap-3 items-center" data-main-step="4"><input type="checkbox" class="main-step-cb" style="accent-color:#262626;width:18px;height:18px;cursor:pointer;flex-shrink:0;"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">4</span> <a href="#chrome" class="underline">Install the Chrome extension</a></li>
+            <li class="flex gap-3 items-center" data-main-step="5"><input type="checkbox" class="main-step-cb" style="accent-color:#262626;width:18px;height:18px;cursor:pointer;flex-shrink:0;"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">5</span> <a href="#ios" class="underline">Install the iOS app</a></li>
+            <li class="flex gap-3 items-center" data-main-step="6"><input type="checkbox" class="main-step-cb" style="accent-color:#262626;width:18px;height:18px;cursor:pointer;flex-shrink:0;"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">6</span> <a href="#conversations-web" class="underline">Perform your memory evaluations</a></li>
+            <li class="flex gap-3 items-center" data-main-step="7"><input type="checkbox" class="main-step-cb" style="accent-color:#262626;width:18px;height:18px;cursor:pointer;flex-shrink:0;"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">7</span> <a href="#survey" class="underline">Complete the post evaluation survey</a></li>
           </ol>
         </div>
       </div>
@@ -668,6 +685,182 @@
     }, { rootMargin: '-20% 0px -80% 0px' });
 
     sections.forEach(section => observer.observe(section));
+  </script>
+
+  <!-- Accordion + Todo Checkboxes -->
+  <script>
+  (function() {
+    const STORAGE_KEY = 'engramme-todo-progress';
+    let savedState = {};
+    try { savedState = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; } catch(e) {}
+
+    function saveState() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(savedState));
+      updateProgressBars();
+    }
+
+    // 1. Convert step-card h3 elements into accordion toggles
+    document.querySelectorAll('.step-card > h3').forEach(h3 => {
+      const card = h3.parentElement;
+      const chevron = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+      chevron.setAttribute('class', 'chevron');
+      chevron.setAttribute('fill', 'none');
+      chevron.setAttribute('stroke', 'currentColor');
+      chevron.setAttribute('viewBox', '0 0 24 24');
+      chevron.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>';
+
+      h3.classList.add('accordion-toggle');
+      h3.appendChild(chevron);
+
+      // Wrap everything after h3 in accordion-body
+      const body = document.createElement('div');
+      body.className = 'accordion-body';
+      const siblings = [];
+      let el = h3.nextElementSibling;
+      while (el) { siblings.push(el); el = el.nextElementSibling; }
+      siblings.forEach(s => body.appendChild(s));
+      card.appendChild(body);
+
+      h3.addEventListener('click', () => {
+        card.classList.toggle('collapsed');
+      });
+    });
+
+    // 2. Inject checkboxes before numbered sub-steps (X.X. pattern)
+    document.querySelectorAll('.step-card p').forEach(p => {
+      const strong = p.querySelector('strong');
+      if (!strong) return;
+      const match = strong.textContent.match(/^(\d+\.\d+)\./);
+      if (!match) return;
+
+      const section = p.closest('section');
+      const sectionId = section ? section.id : 'unknown';
+      const stepId = sectionId + '-' + match[1];
+
+      // Wrap existing content in a todo-step layout
+      const wrapper = document.createElement('div');
+      wrapper.className = 'todo-step' + (savedState[stepId] ? ' checked' : '');
+
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.checked = !!savedState[stepId];
+      checkbox.setAttribute('data-step', stepId);
+
+      const content = document.createElement('div');
+      content.className = 'todo-content';
+
+      // Move the p and any following sibling images into content
+      const parent = p.parentElement;
+      if (!parent) return;
+
+      // Find the img that follows this p (if in a wrapper div)
+      const pParent = p.closest('.space-y-5, .space-y-4, .space-y-3') ? p.parentElement : null;
+      if (pParent && pParent.tagName === 'DIV' && pParent.parentElement && pParent.parentElement.classList.contains('accordion-body') || pParent && pParent.closest('.accordion-body')) {
+        // The step is inside a div wrapper — wrap that div
+        const stepDiv = p.parentElement;
+        if (stepDiv.tagName === 'DIV' && stepDiv.children.length <= 3 && stepDiv.querySelector('p') === p) {
+          stepDiv.before(wrapper);
+          content.appendChild(stepDiv);
+          wrapper.prepend(checkbox);
+          wrapper.appendChild(content);
+        } else {
+          // Just wrap the p itself
+          p.before(wrapper);
+          content.appendChild(p);
+          wrapper.prepend(checkbox);
+          wrapper.appendChild(content);
+        }
+      } else {
+        p.before(wrapper);
+        content.appendChild(p);
+        wrapper.prepend(checkbox);
+        wrapper.appendChild(content);
+      }
+
+      checkbox.addEventListener('change', function() {
+        savedState[stepId] = this.checked;
+        wrapper.classList.toggle('checked', this.checked);
+        saveState();
+      });
+    });
+
+    // 3. Add progress bars to each section
+    function addProgressBars() {
+      document.querySelectorAll('section[id]').forEach(section => {
+        const checkboxes = section.querySelectorAll('.todo-step input[type="checkbox"]');
+        if (checkboxes.length < 2) return;
+
+        const existing = section.querySelector('.progress-wrapper');
+        if (existing) existing.remove();
+
+        const h2 = section.querySelector('h2');
+        if (!h2) return;
+
+        const wrapper = document.createElement('div');
+        wrapper.className = 'progress-wrapper flex items-center gap-3 mb-8';
+        wrapper.innerHTML = '<div class="progress-bar-container flex-1"><div class="progress-bar-fill" data-section="' + section.id + '"></div></div><span class="text-xs font-medium text-text-body-light" data-progress-label="' + section.id + '">0/' + checkboxes.length + '</span>';
+
+        const desc = h2.nextElementSibling;
+        if (desc && desc.tagName === 'P') {
+          desc.after(wrapper);
+        } else {
+          h2.after(wrapper);
+        }
+      });
+      updateProgressBars();
+    }
+
+    function updateProgressBars() {
+      document.querySelectorAll('section[id]').forEach(section => {
+        const checkboxes = section.querySelectorAll('.todo-step input[type="checkbox"]');
+        if (checkboxes.length < 2) return;
+        const checked = section.querySelectorAll('.todo-step input[type="checkbox"]:checked').length;
+        const pct = Math.round((checked / checkboxes.length) * 100);
+        const bar = document.querySelector('[data-section="' + section.id + '"]');
+        const label = document.querySelector('[data-progress-label="' + section.id + '"]');
+        if (bar) bar.style.width = pct + '%';
+        if (label) label.textContent = checked + '/' + checkboxes.length;
+      });
+    }
+
+    addProgressBars();
+
+    // 4. Main steps (1-7) checkboxes with localStorage
+    const MAIN_KEY = 'engramme-main-steps';
+    let mainState = {};
+    try { mainState = JSON.parse(localStorage.getItem(MAIN_KEY)) || {}; } catch(e) {}
+
+    function updateMainProgress() {
+      const cbs = document.querySelectorAll('.main-step-cb');
+      const checked = document.querySelectorAll('.main-step-cb:checked').length;
+      const bar = document.getElementById('main-progress-bar');
+      const label = document.getElementById('main-progress-label');
+      if (bar) bar.style.width = Math.round((checked / cbs.length) * 100) + '%';
+      if (label) label.textContent = checked + '/' + cbs.length;
+    }
+
+    document.querySelectorAll('.main-step-cb').forEach(cb => {
+      const li = cb.closest('li');
+      const step = li ? li.getAttribute('data-main-step') : null;
+      if (step && mainState[step]) {
+        cb.checked = true;
+        li.style.opacity = '0.5';
+        li.style.textDecoration = 'line-through';
+        li.style.textDecorationColor = '#b0adab';
+      }
+      cb.addEventListener('change', function() {
+        mainState[step] = this.checked;
+        localStorage.setItem(MAIN_KEY, JSON.stringify(mainState));
+        if (li) {
+          li.style.opacity = this.checked ? '0.5' : '1';
+          li.style.textDecoration = this.checked ? 'line-through' : 'none';
+          li.style.textDecorationColor = '#b0adab';
+        }
+        updateMainProgress();
+      });
+    });
+    updateMainProgress();
+  })();
   </script>
 
   <!-- Admin Panel -->
