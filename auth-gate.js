@@ -4,9 +4,9 @@
 //   crypto.subtle.digest('SHA-256', new TextEncoder().encode('yourpassword')).then(b => console.log(Array.from(new Uint8Array(b)).map(x => x.toString(16).padStart(2,'0')).join('')))
 
 (function () {
-  var PASSWORD_HASH = 'a0b87ec3a0abcce61a109a4b5efdb8e03fde47129bda0e0e64a3fa84ab5aedbe'; // engramme2026
+  var PASSWORD_HASH = 'd57d60f2eec7b185a385610fefcb511f355994f9a7de235d30dcf456e9b46873'; // engramme2026
 
-  var SESSION_TOKEN = 'b493d48364afe44d11c0165cf470a4164d1e2609911ef998be868d46ade3de4e'; // SHA-256 of PASSWORD_HASH
+  var SESSION_TOKEN = '9a466c08e38ad33b24ac7289fe76a6c678011948bfc37d40e01458f7896f9f54'; // SHA-256 of PASSWORD_HASH
   if (sessionStorage.getItem('site_auth') === SESSION_TOKEN) return;
 
   var overlay = document.createElement('div');
