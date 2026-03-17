@@ -6,7 +6,8 @@
 (function () {
   var PASSWORD_HASH = 'a0b87ec3a0abcce61a109a4b5efdb8e03fde47129bda0e0e64a3fa84ab5aedbe'; // engramme2026
 
-  if (sessionStorage.getItem('site_auth') === '1') return;
+  var SESSION_TOKEN = 'b493d48364afe44d11c0165cf470a4164d1e2609911ef998be868d46ade3de4e'; // SHA-256 of PASSWORD_HASH
+  if (sessionStorage.getItem('site_auth') === SESSION_TOKEN) return;
 
   var overlay = document.createElement('div');
   overlay.id = 'auth-gate';
@@ -27,7 +28,7 @@
     crypto.subtle.digest('SHA-256', new TextEncoder().encode(pw)).then(function (buf) {
       var hash = Array.from(new Uint8Array(buf)).map(function (x) { return x.toString(16).padStart(2, '0'); }).join('');
       if (hash === PASSWORD_HASH) {
-        sessionStorage.setItem('site_auth', '1');
+        sessionStorage.setItem('site_auth', SESSION_TOKEN);
         overlay.remove();
       } else {
         document.getElementById('gate-err').style.visibility = 'visible';
