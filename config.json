@@ -9,6 +9,7 @@
   "appUrl": "https://app.engramme.com",
   "driveFolderUrl": "https://drive.google.com/drive/folders/1qdT0-04iuIAaKOY3onGI1M_wuQ0CIDe6?usp=drive_link",
   "surveyUrl": "https://docs.google.com/forms/d/17BRPQ4gTJf6MrIAzy26Ija1zT8Tf2e_-SG1A9dwjMn4/edit",
+  "testflightUrl": "https://testflight.apple.com/join/XXXXXXXX",
   "extensionZip": "engramme_extension.zip",
   "extensionFolder": "engramme_extension",
   "extensionMinVersion": "4.1.0",
