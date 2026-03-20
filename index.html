@@ -119,13 +119,29 @@
     <!-- Hero / Welcome -->
     <section id="welcome" class="px-6 sm:px-12 lg:px-20 py-16 lg:py-24 bg-bg-cream border-b border-border-light">
       <div class="max-w-3xl">
+        <p class="text-sm font-medium text-accent-gold uppercase tracking-wider mb-3">READ THIS FIRST</p>
         <h1 class="text-4xl lg:text-5xl font-bold text-text-heading tracking-tight leading-tight mb-6">
           App Installation &<br>Usage Instructions
         </h1>
-        <p class="text-lg text-text-body leading-relaxed mb-8">
-          You will receive $100 after evaluating more than 500 memory cards in 7 days. Anything short of 500 evaluations within 7 days will lead to a compensation of $5.
+        <p class="text-lg text-text-body leading-relaxed mb-4">
+          Engramme is a research lab building technology to help augment human memory. We're looking for beta testers and will pay $100 for completing the evaluation.
         </p>
-        <p class="text-lg text-text-body leading-relaxed mb-8">
+        <p class="text-text-body leading-relaxed mb-2 font-semibold">What you'll do:</p>
+        <ul class="text-text-body leading-relaxed mb-6 list-disc list-inside space-y-1">
+          <li>Connect your email, calendar, and Google Drive (required)</li>
+          <li>Install our Chrome extension (required)</li>
+          <li>Use our web app</li>
+          <li>(Optional) Install our iOS app for a better experience</li>
+        </ul>
+        <p class="text-text-body leading-relaxed mb-2">
+          You'll be shown "memory cards" and asked to rate each one (thumbs up or down) based on how useful it is.
+        </p>
+        <p class="text-text-body leading-relaxed mb-2 font-semibold">Payment:</p>
+        <ul class="text-text-body leading-relaxed mb-6 list-disc list-inside space-y-1">
+          <li>$100 for completing 500+ evaluations within 7 days</li>
+          <li>$5 if fewer than 500 evaluations are completed within 7 days</li>
+        </ul>
+        <p class="text-text-body leading-relaxed mb-8">
           Please reach out to <a href="mailto:support@engramme.com" class="text-primary underline font-medium">support@engramme.com</a> for any questions.
         </p>
         <div class="bg-white border border-border-light rounded-2xl p-6 space-y-3">
@@ -136,11 +152,11 @@
           <div class="progress-bar-container mb-1"><div class="progress-bar-fill" id="main-progress-bar"></div></div>
           <p class="text-xs text-text-body-light italic">These checkboxes are saved locally on your device to help you keep track — we don't collect or monitor your progress.</p>
           <ol class="space-y-2 text-sm text-text-body" id="main-steps">
-            <li class="flex gap-3 items-center" data-main-step="1"><input type="checkbox" class="main-step-cb" style="accent-color:#262626;width:18px;height:18px;cursor:pointer;flex-shrink:0;"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">1</span> <a href="consent.html" class="underline">Sign the consent form</a></li>
-            <li class="flex gap-3 items-center" data-main-step="2"><input type="checkbox" class="main-step-cb" style="accent-color:#262626;width:18px;height:18px;cursor:pointer;flex-shrink:0;"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">2</span> <a href="#signup" class="underline">Sign up and install integrations</a></li>
-            <li class="flex gap-3 items-center" data-main-step="3"><input type="checkbox" class="main-step-cb" style="accent-color:#262626;width:18px;height:18px;cursor:pointer;flex-shrink:0;"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">3</span> <a href="#chrome" class="underline">Install the Chrome extension</a></li>
-            <li class="flex gap-3 items-center" data-main-step="4"><input type="checkbox" class="main-step-cb" style="accent-color:#262626;width:18px;height:18px;cursor:pointer;flex-shrink:0;"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">4</span> <a href="#ios" class="underline">Install the iOS app</a> <span class="text-text-body-light">(optional)</span></li>
-            <li class="flex gap-3 items-center" data-main-step="5"><input type="checkbox" class="main-step-cb" style="accent-color:#262626;width:18px;height:18px;cursor:pointer;flex-shrink:0;"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">5</span> <a href="#conversations-web" class="underline">Perform your memory evaluations</a></li>
+            <li class="flex gap-3 items-center" data-main-step="1"><input type="checkbox" class="main-step-cb" style="accent-color:#262626;width:18px;height:18px;cursor:pointer;flex-shrink:0;"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">1</span> <a href="consent.html" class="underline">Sign the consent form</a> and return the signed form to <a href="mailto:support@engramme.com" class="underline">support@engramme.com</a></li>
+            <li class="flex gap-3 items-center" data-main-step="2"><input type="checkbox" class="main-step-cb" style="accent-color:#262626;width:18px;height:18px;cursor:pointer;flex-shrink:0;"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">2</span> Read carefully and follow the instructions <a href="#signup" class="underline">here</a> to sign up and connect integrations</li>
+            <li class="flex gap-3 items-center" data-main-step="3"><input type="checkbox" class="main-step-cb" style="accent-color:#262626;width:18px;height:18px;cursor:pointer;flex-shrink:0;"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">3</span> Read carefully and follow the instructions <a href="#chrome" class="underline">here</a> to install the Chrome extension</li>
+            <li class="flex gap-3 items-center" data-main-step="4"><input type="checkbox" class="main-step-cb" style="accent-color:#262626;width:18px;height:18px;cursor:pointer;flex-shrink:0;"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">4</span> Read carefully and follow the instructions <a href="#ios" class="underline">here</a> to install the iOS app <span class="text-text-body-light">(optional)</span></li>
+            <li class="flex gap-3 items-center" data-main-step="5"><input type="checkbox" class="main-step-cb" style="accent-color:#262626;width:18px;height:18px;cursor:pointer;flex-shrink:0;"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">5</span> Read carefully and follow the instructions <a href="#conversations-web" class="underline">here</a> to perform your memory evaluations</li>
             <li class="flex gap-3 items-center" data-main-step="6"><input type="checkbox" class="main-step-cb" style="accent-color:#262626;width:18px;height:18px;cursor:pointer;flex-shrink:0;"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">6</span> <a href="#survey" class="underline">Complete the post evaluation survey</a></li>
           </ol>
         </div>
@@ -151,9 +167,9 @@
     <section id="signup" class="px-6 sm:px-12 lg:px-20 py-16 border-b border-border-light">
       <div class="max-w-3xl">
         <p class="text-sm font-medium text-text-body-light uppercase tracking-wider mb-2">Getting Started</p>
-        <h2 class="text-3xl font-bold text-text-heading tracking-tight mb-3">Instructions to create and integrate your Engramme account</h2>
-        <p class="text-text-body leading-relaxed mb-4">In order for us to help you recall your memories, you need to create your account and connect relevant sources and applications.</p>
-        <p class="text-text-body leading-relaxed mb-10">It is important that you connect as many sources as possible to ensure sufficient amount of memories for us to recall.</p>
+        <h2 class="text-3xl font-bold text-text-heading tracking-tight mb-3">Creating your Engramme account and adding data sources</h2>
+        <p class="text-text-body leading-relaxed mb-4">For Engramme to surface useful memories to you, you need to create an Engramme account and add some data sources.</p>
+        <p class="text-text-body leading-relaxed mb-10">To receive the full $100 payment, you must connect your Gmail, Google Calendar, and Google Drive.</p>
 
         <!-- Step 1.1 -->
         <div class="step-card bg-white border border-border-light rounded-2xl p-6 mb-6">
@@ -189,7 +205,7 @@
               <img src="images/annotated-2-1-select-plus.png" alt="Click the plus sign" class="section-img mt-3 w-full max-w-md">
             </div>
             <div>
-              <p class="text-sm text-text-body"><strong>2.2.</strong> Select the integrations you want to form part of your memories. More integrations lead to better memory quality.</p>
+              <p class="text-sm text-text-body"><strong>2.2.</strong> Select the integrations you want to connect. You must connect Gmail, Google Calendar, and Google Drive to receive the full $100 payment. More integrations lead to better memory quality.</p>
               <img src="images/image53.png" alt="Integration selection" class="section-img mt-3 w-full max-w-md">
             </div>
             <div>
