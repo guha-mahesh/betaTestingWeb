@@ -1,0 +1,523 @@
+/* panel.css - Overlay panel shell, header, resize, and base styles */
+
+/* DM Sans font — loaded from bundled woff2 files */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100 1000;
+  font-display: swap;
+  src: url('../fonts/dm-sans-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 100 1000;
+  font-display: swap;
+  src: url('../fonts/dm-sans-italic.woff2') format('woff2');
+}
+
+:host {
+    --engramme-z-top: 2147483647;
+}
+
+/* Force all text to be black and use DM Sans */
+.gmail-memory-overlay * {
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+    color: #000000 !important;
+}
+
+/* Exceptions: White text on dark backgrounds */
+.gmail-memory-overlay .avatar-item,
+.gmail-memory-overlay .participant-avatar {
+    color: #ffffff !important;
+}
+
+/* Exception: Error code buttons have their own color scheme */
+.gmail-memory-overlay .error-code-btn {
+    color: #6c6464 !important;
+}
+
+.gmail-memory-overlay .error-code-btn:hover {
+    color: #5a5a5a !important;
+}
+
+.gmail-memory-overlay .error-code-btn.active {
+    color: #ffffff !important;
+}
+
+/* Exceptions: Keep colored icons (thumbs up/down) */
+.gmail-memory-overlay .global-rating-btn.thumbs-up.active,
+.gmail-memory-overlay .memory-action-btn.thumbs-up.active,
+.gmail-memory-overlay .memory-detail-action-btn.thumbs-up.active {
+    color: #10b981 !important;
+}
+
+.gmail-memory-overlay .global-rating-btn.thumbs-up.active svg,
+.gmail-memory-overlay .global-rating-btn.thumbs-up.active svg *,
+.gmail-memory-overlay .memory-action-btn.thumbs-up.active svg,
+.gmail-memory-overlay .memory-action-btn.thumbs-up.active svg *,
+.gmail-memory-overlay .memory-detail-action-btn.thumbs-up.active svg,
+.gmail-memory-overlay .memory-detail-action-btn.thumbs-up.active svg * {
+    stroke: #10b981 !important;
+}
+
+.gmail-memory-overlay .global-rating-btn.thumbs-down.active,
+.gmail-memory-overlay .memory-action-btn.thumbs-down.active,
+.gmail-memory-overlay .memory-detail-action-btn.thumbs-down.active {
+    color: #ef4444 !important;
+}
+
+.gmail-memory-overlay .global-rating-btn.thumbs-down.active svg,
+.gmail-memory-overlay .global-rating-btn.thumbs-down.active svg *,
+.gmail-memory-overlay .memory-action-btn.thumbs-down.active svg,
+.gmail-memory-overlay .memory-action-btn.thumbs-down.active svg *,
+.gmail-memory-overlay .memory-detail-action-btn.thumbs-down.active svg,
+.gmail-memory-overlay .memory-detail-action-btn.thumbs-down.active svg * {
+    stroke: #ef4444 !important;
+}
+
+/* Tooltip portal (replaces old CSS pseudo-element tooltips) */
+.gmail-memory-overlay [data-tooltip] {
+    position: relative;
+}
+
+.gmail-memory-overlay [data-tooltip]::after,
+.gmail-memory-overlay [data-tooltip]::before {
+    display: none !important;
+}
+
+.engramme-tooltip {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 6px 8px;
+    border-radius: 6px;
+    background: #111111;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 500;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transform: translate(-50%, -100%);
+    transition: opacity 0.12s ease, transform 0.12s ease;
+    z-index: var(--engramme-z-top);
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.engramme-tooltip[data-placement="bottom"] {
+    transform: translate(-50%, 0);
+}
+
+.engramme-tooltip.visible {
+    opacity: 1;
+}
+
+/* Exceptions: Gray text elements */
+.gmail-memory-overlay .memory-date,
+.gmail-memory-overlay .avatar-overflow,
+.gmail-memory-overlay .memory-source-date,
+.gmail-memory-overlay .no-memories,
+.gmail-memory-overlay .memories-loading {
+    color: #bcb9b8 !important;
+}
+
+.gmail-memory-overlay .memory-header-buttons button {
+    color: #6b7280 !important;
+}
+
+.gmail-memory-overlay .memory-header-buttons button:hover {
+    color: #1a1a1a !important;
+}
+
+/* Main overlay container */
+.gmail-memory-overlay {
+    position: fixed !important;
+    top: 8px !important;
+    right: 8px !important;
+    bottom: 8px !important;
+    left: auto !important;
+    width: 400px;
+    height: calc(100vh - 16px);
+    max-height: calc(100vh - 16px);
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+    z-index: 999999;
+    overflow: hidden;
+    display: none;
+    flex-direction: column;
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+    border: 1px solid #e0e0e0;
+    transition: all 0.2s cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+.gmail-memory-overlay.show {
+    display: flex;
+    animation: slideIn 0.3s cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Header */
+.memory-header {
+    background: #ffffff;
+    color: #000000;
+    padding: 16px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 0;
+    border-bottom: 1px solid #f0f0f0;
+    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.18);
+    cursor: default;
+    user-select: none;
+    border-radius: 12px 12px 0 0;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 10;
+}
+
+.memory-header-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.memory-header-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.memory-header-buttons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.memory-header-buttons button {
+    background: none;
+    border: none;
+    color: #6b7280;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.memory-header-buttons button:hover {
+    background: #f3f4f6;
+    color: #1a1a1a;
+}
+
+.memory-header-buttons .global-rating-btn {
+    opacity: 0.6;
+    transition: all 0.2s;
+}
+
+.memory-header-buttons .global-rating-btn:hover {
+    opacity: 1;
+}
+
+.memory-header-buttons .global-rating-btn.active {
+    opacity: 1;
+}
+
+.memory-header-buttons .global-rating-btn.thumbs-up.active {
+    color: #10b981 !important;
+}
+
+.memory-header-buttons .global-rating-btn.thumbs-up.active svg,
+.memory-header-buttons .global-rating-btn.thumbs-up.active svg * {
+    stroke: #10b981 !important;
+}
+
+.memory-header-buttons .global-rating-btn.thumbs-down.active {
+    color: #ef4444 !important;
+}
+
+.memory-header-buttons .global-rating-btn.thumbs-down.active svg,
+.memory-header-buttons .global-rating-btn.thumbs-down.active svg * {
+    stroke: #ef4444 !important;
+}
+
+.feedback-stats {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 4px;
+}
+
+.feedback-stat {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 12px;
+    color: #9ca3af;
+    cursor: default;
+}
+
+.feedback-stat svg {
+    opacity: 0.7;
+}
+
+.feedback-stat.likes svg {
+    stroke: #10b981;
+}
+
+.feedback-stat.dislikes svg {
+    stroke: #ef4444;
+}
+
+.feedback-stat-count {
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+}
+
+.feedback-stat.total {
+    font-size: 11px;
+    color: #b0adb0;
+    border-left: 1px solid #e5e7eb;
+    padding-left: 10px;
+}
+
+.memory-header-buttons .close-overlay-btn {
+    opacity: 0.6;
+    transition: all 0.2s;
+}
+
+.memory-header-buttons .close-overlay-btn:hover {
+    opacity: 1;
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+/* Memory list container */
+.memory-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px 20px 20px;
+    background: #ffffff;
+    transition: all 0.2s ease;
+    opacity: 1;
+}
+
+/* Custom scrollbar - hidden by default, shown on scroll */
+.memory-list::-webkit-scrollbar {
+    width: 5px;
+}
+
+.memory-list::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 3px;
+}
+
+.memory-list::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 3px;
+    transition: background 0.3s ease;
+}
+
+.memory-list.scrolling::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #000000, #333333);
+}
+
+.memory-list.scrolling::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #333333, #555555);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1400px) {
+    .gmail-memory-overlay {
+        width: 360px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .gmail-memory-overlay {
+        width: 340px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .gmail-memory-overlay {
+        width: 100vw !important;
+        max-width: 100vw !important;
+    }
+}
+
+/* Avoid conflicts with Gmail */
+.gmail-memory-overlay * {
+    box-sizing: border-box;
+}
+
+/* Ensure overlay stays above Gmail elements */
+.gmail-memory-overlay {
+    z-index: 999999 !important;
+}
+
+/* Smooth transitions */
+.gmail-memory-overlay .memory-card,
+.gmail-memory-overlay .memory-action-btn {
+    transition: inherit;
+}
+
+/* Better Gmail integration - full height sidebar */
+@media (max-height: 600px) {
+    .gmail-memory-overlay {
+        height: 100vh !important;
+    }
+}
+
+/* Hide overlay when closed */
+.gmail-memory-overlay.closed {
+    display: none !important;
+}
+
+/* Resize handle for sidebar */
+.memory-resize-handle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 8px;
+    cursor: ew-resize;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.memory-resize-handle:hover .resize-handle-bar,
+.gmail-memory-overlay.resizing .resize-handle-bar {
+    opacity: 1;
+    background: #4285f4;
+}
+
+.resize-handle-bar {
+    width: 3px;
+    height: 40px;
+    background: #dadce0;
+    border-radius: 2px;
+    opacity: 0;
+    transition: opacity 0.2s, background 0.2s;
+}
+
+.gmail-memory-overlay.resizing {
+    user-select: none;
+    pointer-events: all;
+}
+
+/* Empty states */
+.no-memories {
+    text-align: center;
+    padding: 30px 16px;
+    margin: 4px 0;
+    color: #666;
+    font-size: 12px;
+    line-height: 1.5;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    border: 2px dashed #ddd;
+    box-sizing: border-box;
+}
+
+.no-memories.not-logged-in {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% - 40px);
+    transform: translate(-50%, -50%);
+}
+
+.not-logged-in-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.google-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #3c4043;
+    cursor: pointer;
+    transition: all 0.2s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.google-btn:hover {
+    background: #f8f9fa;
+    border-color: #c6c9cc;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.google-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.google-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.memories-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 16px;
+    color: #151211;
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.memories-loading-spinner {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    border-top: 4px solid #000;
+    animation: spin 1s linear infinite;
+    margin-bottom: 16px;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}

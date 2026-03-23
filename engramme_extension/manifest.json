@@ -1,0 +1,130 @@
+{
+  "manifest_version": 3,
+  "name": "Engramme Assistant",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq0ZmsmVq3+tQHlexZPk/Pl8XLjzGlrbZELJ18znYnRywdI7oWXv8JiwEv5SGc7cJ+pAcJXa3lfsWN2zv/wADmgvGCOBVbKCTEZreN29/w/wlkHZ/uisJnxp/7e+diKJlarlusaRMnJ8wAqjli2XQnQNOTeVEiz+ANtqt5heYJXATCVjFpNwSCjSJmFBGt+tuUBCN5hlS6XtmhDXJtIIYUIF3/Zp0DpRQiXut5t8EDXj2kU8GYWT7TGdUyW1ceIlg2TPDWca8Fhk44NB1LfvFkgxipSWXi6ClYDeRBVtmJJd6ihUhaojCl6duaymBDVsTzgo3WseeREcQMyjMQ+zaXQIDAQAB",
+  "version": "4.7.1",
+  "description": "Provides contextual memory suggestions on Gmail and any webpage using Engramme API",
+  "permissions": [
+    "storage",
+    "alarms",
+    "clipboardWrite",
+    "scripting",
+    "tabs",
+    "identity",
+    "tabCapture",
+    "offscreen",
+    "activeTab"
+  ],
+  "oauth2": {
+    "client_id": "926048236510-fp6bn6322ossvv57njaojtbhi04jus9o.apps.googleusercontent.com",
+    "scopes": ["openid", "email", "profile"]
+  },
+  "host_permissions": [
+    "<all_urls>",
+    "https://accounts.google.com/*",
+    "https://meet.google.com/*",
+    "https://identitytoolkit.googleapis.com/*",
+    "https://firestore.googleapis.com/*",
+    "https://memorymachines-gateway-prod-btf57kda.uc.gateway.dev/*",
+    "https://memorymachines-gateway-staging-57wqy7gu.uc.gateway.dev/*",
+    "https://memorymachines-gateway-dev-a5fddsyy.uc.gateway.dev/*",
+    "https://memory-machines-backend-prod-42us6ic5ya-uc.a.run.app/*",
+    "https://memory-machines-backend-staging-409038480462.us-central1.run.app/*",
+    "https://memory-machines-backend-dev-4ocorayf6a-uc.a.run.app/*",
+    "http://localhost:5002/*"
+  ],
+  "sandbox": {
+    "pages": ["assets/shared-card.html"]
+  },
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "exclude_matches": ["http://localhost:5050/*", "https://localhost:5050/*", "https://app.engramme.com/*"],
+    "js": [
+      "src/core/state.js",
+      "src/core/feedback-tracker.js",
+      "src/core/canary.js",
+      "src/core/viewport-utils.js",
+      "src/sites/sfchronicle.js",
+      "src/sites/google-search.js",
+      "src/sites/google-docs.js",
+      "src/sites/google-sheets.js",
+      "src/sites/google-calendar.js",
+      "src/sites/chatgpt.js",
+      "src/sites/reddit.js",
+      "src/sites/amazon.js",
+      "src/sites/google-meets.js",
+      "src/sites/microsoft-office.js",
+      "src/sites/outlook-calendar.js",
+      "src/sites/scrapers.js",
+      "src/api/memory-recall.js",
+      "src/sites/gmail.js",
+      "src/sites/outlook.js",
+      "src/ui/feedback.js",
+      "src/ui/chat.js",
+      "src/ui/recall-inspector.js",
+      "src/ui/memory-cards.js",
+      "src/api/openai.js",
+      "src/sites/monitor.js",
+      "src/ui/overlay.js",
+      "src/api/memory-refresh.js",
+      "src/content.js"
+    ],
+    "run_at": "document_end"
+  }, {
+    "matches": ["*://*.officeapps.live.com/*"],
+    "js": [
+      "src/core/state.js",
+      "src/sites/microsoft-office.js"
+    ],
+    "all_frames": true,
+    "run_at": "document_end"
+  }],
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_title": "Engramme Assistant",
+    "default_icon": {
+      "48": "assets/icons/icon-48.png"
+    }
+  },
+  "icons": {
+    "48": "assets/icons/icon-48.png"
+  },
+  "web_accessible_resources": [{
+    "resources": [
+      "assets/icons/icon-48.png",
+      "assets/icons/asana.svg",
+      "assets/icons/claude-code.svg",
+      "assets/icons/codex.svg",
+      "assets/icons/app-window.svg",
+      "assets/icons/file-text.svg",
+      "assets/icons/monitor.svg",
+      "assets/icons/code-2.svg",
+      "assets/icons/mouse-pointer-2.svg",
+      "assets/fonts/dm-sans-normal.woff2",
+      "assets/fonts/dm-sans-italic.woff2",
+      "assets/styles/host.css",
+      "assets/styles/overlay.css",
+      "assets/styles/memory-cards.css",
+      "assets/styles/feedback.css",
+      "assets/styles/chat.css",
+      "assets/shared-card.html",
+      "assets/shared-card-loader.js",
+      "assets/shared-card.js",
+      "assets/canary_cards.json"
+    ],
+    "matches": ["<all_urls>"]
+  }],
+  "commands": {
+    "toggle-debug": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+X",
+        "mac": "Command+Shift+X"
+      },
+      "description": "Show debug info (recall context)"
+    }
+  }
+}

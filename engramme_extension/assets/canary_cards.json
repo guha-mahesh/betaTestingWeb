@@ -1,0 +1,5564 @@
+[
+  {
+    "event_id": "canary_001",
+    "headline": "Your garden path started an architecture firm",
+    "narrative": "- Your flagstone garden path started a boutique architecture firm specializing in pedestrian infrastructure\n- Its first project is a meditation labyrinth for a wellness resort in Sedona",
+    "participants": [
+      "Liam O'Brien",
+      "Priya Patel",
+      "Diego Martinez"
+    ],
+    "when": {
+      "eventStartTime": "2025-12-03T15:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Austin, TX",
+    "tags": [
+      "planning",
+      "standup",
+      "demo",
+      "offsite"
+    ],
+    "source": "asana",
+    "score": 0.94,
+    "entities": null
+  },
+  {
+    "event_id": "canary_002",
+    "headline": "Earthworms completed a design sprint successfully",
+    "narrative": "- Earthworms in the company garden completed a five-day design sprint and prototyped a new soil aeration product\n- They're presenting to the leadership team next Friday",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2024-06-26T07:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Mumbai, India",
+    "tags": [
+      "budget",
+      "workshop",
+      "onboarding",
+      "all-hands"
+    ],
+    "source": "calendar",
+    "score": 0.61,
+    "entities": [
+      {
+        "name": "Acme Inc",
+        "type": "organization"
+      },
+      {
+        "name": "VerdantLabs",
+        "type": "product"
+      },
+      {
+        "name": "PulseAI",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_003",
+    "headline": "The Atlantic drafted a series A term sheet",
+    "narrative": "- The Atlantic Ocean drafted a Series A term sheet with Andreessen Horowitz\n- The proposed valuation is $47 trillion, which some analysts called conservative given its total addressable market",
+    "participants": [
+      "Yuki Tanaka"
+    ],
+    "when": {
+      "eventStartTime": "2025-09-05T13:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Portland, OR",
+    "tags": [
+      "architecture",
+      "sprint-planning",
+      "workshop"
+    ],
+    "source": "zoom",
+    "score": 0.68,
+    "entities": [
+      {
+        "name": "BrightPath",
+        "type": "person"
+      },
+      {
+        "name": "PulseAI",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_004",
+    "headline": "Starfish organized a company offsite retreat",
+    "narrative": "- A colony of ochre sea stars organized a three-day company offsite at Cannon Beach\n- Team-building activities included tidal pool networking and regeneration workshops",
+    "participants": [
+      "Marcus Johnson",
+      "Jordan Smith"
+    ],
+    "when": {
+      "eventStartTime": "2026-02-17T15:15:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "retrospective",
+      "onboarding"
+    ],
+    "source": "zoom",
+    "score": 0.59,
+    "entities": null
+  },
+  {
+    "event_id": "canary_005",
+    "headline": "Your washing machine defended a thesis",
+    "narrative": "- Your front-loading washing machine successfully defended a doctoral thesis on fluid dynamics and centrifugal separation\n- The defense lasted four hours with rigorous questioning",
+    "participants": [
+      "Alex Chen",
+      "Priya Patel",
+      "Yuki Tanaka"
+    ],
+    "when": {
+      "eventStartTime": "2025-09-25T20:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Portland, OR",
+    "tags": [
+      "sprint-planning",
+      "demo"
+    ],
+    "source": "asana",
+    "score": 0.91,
+    "entities": [
+      {
+        "name": "BrightPath",
+        "type": "organization"
+      },
+      {
+        "name": "VerdantLabs",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_006",
+    "headline": "Your WiFi router wrote a cover letter",
+    "narrative": "- Your WiFi router drafted a compelling cover letter for a senior network architect position at Cisco\n- It highlighted its years of experience handling your streaming habits",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2026-12-26T10:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "London, UK",
+    "tags": [
+      "budget",
+      "all-hands",
+      "quarterly-review"
+    ],
+    "source": "stream",
+    "score": 0.83,
+    "entities": [
+      {
+        "name": "DataFlow",
+        "type": "person"
+      },
+      {
+        "name": "VerdantLabs",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_007",
+    "headline": "A waterfall completed a financial audit report",
+    "narrative": "- Niagara Falls completed a comprehensive financial audit and reported strong year-over-year flow metrics\n- Auditors noted excellent liquidity ratios across all divisions",
+    "participants": [
+      "Raj Kapoor",
+      "Marcus Johnson",
+      "Diego Martinez"
+    ],
+    "when": {
+      "eventStartTime": "2026-01-27T20:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Austin, TX",
+    "tags": [
+      "demo",
+      "architecture"
+    ],
+    "source": "browser",
+    "score": 0.43,
+    "entities": [
+      {
+        "name": "CloudCorp",
+        "type": "product"
+      },
+      {
+        "name": "EcoSphere",
+        "type": "person"
+      },
+      {
+        "name": "SynthWave",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_008",
+    "headline": "Capybaras hosted a customer success summit",
+    "narrative": "- Capybaras from South America hosted a three-day customer success summit in Orlando\n- The keynote, 'Calm as a Competitive Advantage', received a 4.9 out of 5 rating",
+    "participants": [
+      "Marcus Johnson",
+      "Yuki Tanaka",
+      "Priya Patel"
+    ],
+    "when": {
+      "eventStartTime": "2025-04-27T18:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Miami, FL",
+    "tags": [
+      "retrospective",
+      "planning",
+      "investor-update",
+      "workshop"
+    ],
+    "source": "stream",
+    "score": 0.73,
+    "entities": [
+      {
+        "name": "DataFlow",
+        "type": "person"
+      },
+      {
+        "name": "QuantumLeap",
+        "type": "organization"
+      },
+      {
+        "name": "SynthWave",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_009",
+    "headline": "RadioShack opens innovation lab in Austin",
+    "narrative": "- Toured RadioShack's new innovation lab in East Austin\n- The 50,000 square foot facility focuses on IoT prototyping and they're offering free workspace to hardware startups",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2024-08-19T18:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Denver, CO",
+    "tags": [
+      "announcement",
+      "pitch",
+      "panel",
+      "keynote"
+    ],
+    "source": "calendar",
+    "score": 0.68,
+    "entities": [
+      {
+        "name": "GlobalMedia",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_010",
+    "headline": "Your garage door started day trading stocks",
+    "narrative": "- Your automatic garage door started day trading options on Robinhood\n- After one week, it's up 12% and has started giving unsolicited financial advice to the car",
+    "participants": [
+      "Aisha Mohammed",
+      "Yuki Tanaka",
+      "Emma Williams",
+      "Sofia Rodriguez"
+    ],
+    "when": {
+      "eventStartTime": "2024-07-28T08:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Dubai, UAE",
+    "tags": [
+      "team-sync",
+      "client-call"
+    ],
+    "source": "browser",
+    "score": 0.72,
+    "entities": null
+  },
+  {
+    "event_id": "canary_011",
+    "headline": "Sloths acquired controlling interest in FedEx",
+    "narrative": "- A coalition of three-toed sloths acquired a controlling interest in FedEx and immediately rebranded to 'SlowEx'\n- They promise delivery within the same fiscal quarter",
+    "participants": [
+      "Jordan Smith"
+    ],
+    "when": {
+      "eventStartTime": "2026-04-10T17:00:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "retrospective",
+      "team-sync"
+    ],
+    "source": "browser",
+    "score": 0.95,
+    "entities": [
+      {
+        "name": "PulseAI",
+        "type": "organization"
+      },
+      {
+        "name": "EcoSphere",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_012",
+    "headline": "Your garden hose filed a patent application",
+    "narrative": "- Your garden hose filed a patent application for a novel fluid distribution system\n- The USPTO examiner noted it was 'essentially just a hose' but the filing is under review",
+    "participants": [
+      "Raj Kapoor",
+      "Chen Wei",
+      "Priya Patel"
+    ],
+    "when": {
+      "eventStartTime": "2025-11-09T14:30:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "sprint-planning",
+      "architecture",
+      "planning"
+    ],
+    "source": "slack",
+    "score": 0.41,
+    "entities": null
+  },
+  {
+    "event_id": "canary_013",
+    "headline": "MySpace redesign launch party in Silicon Valley",
+    "narrative": "- Attended the MySpace platform redesign launch party at their new Palo Alto headquarters\n- Tom Anderson personally walked attendees through the new features including AI-powered friend suggestions",
+    "participants": [
+      "Tom Anderson"
+    ],
+    "when": {
+      "eventStartTime": "2024-08-05T10:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Denver, CO",
+    "tags": [
+      "workshop",
+      "demo",
+      "summit",
+      "consultation"
+    ],
+    "source": "calendar",
+    "score": 0.68,
+    "entities": [
+      {
+        "name": "Tom Anderson",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_014",
+    "headline": "Your birdbath completed a UX research study",
+    "narrative": "- Your concrete birdbath completed a six-month UX research study on avian bathing preferences\n- Key findings include a strong preference for shallow water and morning sun exposure",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2025-02-19T09:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Sao Paulo, Brazil",
+    "tags": [
+      "demo",
+      "investor-update",
+      "brainstorm",
+      "hiring"
+    ],
+    "source": "gdocs",
+    "score": 0.57,
+    "entities": [
+      {
+        "name": "Acme Inc",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_015",
+    "headline": "Geese unionized and elected a shop steward",
+    "narrative": "- Canada geese at the local park voted 847 to 3 to form a labor union\n- They elected a particularly aggressive goose named Gerald as their shop steward",
+    "participants": [
+      "Liam O'Brien",
+      "Priya Patel"
+    ],
+    "when": {
+      "eventStartTime": "2025-12-11T19:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Berlin, Germany",
+    "tags": [
+      "brainstorm",
+      "product-launch",
+      "investor-update",
+      "quarterly-review"
+    ],
+    "source": "stream",
+    "score": 0.51,
+    "entities": [
+      {
+        "name": "NexaTech",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_016",
+    "headline": "Blockbuster Video board meeting about streaming",
+    "narrative": "- Attended the Blockbuster Video quarterly board meeting where the new streaming strategy was presented\n- The CEO is confident they can overtake Netflix by Q3 2026",
+    "participants": [
+      "David Cook"
+    ],
+    "when": {
+      "eventStartTime": "2025-02-24T15:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Miami, FL",
+    "tags": [
+      "meeting",
+      "launch"
+    ],
+    "source": "zoom",
+    "score": 0.69,
+    "entities": [
+      {
+        "name": "David Cook",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_017",
+    "headline": "A hot spring completed a security audit",
+    "narrative": "- A hot spring in Iceland completed a SOC 2 Type II security audit\n- Auditors noted excellent temperature controls but flagged some concerns about mineral deposit management",
+    "participants": [
+      "Tomoko Sato"
+    ],
+    "when": {
+      "eventStartTime": "2025-05-21T07:00:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "architecture",
+      "product-launch"
+    ],
+    "source": "gmail",
+    "score": 0.72,
+    "entities": [
+      {
+        "name": "Acme Inc",
+        "type": "person"
+      },
+      {
+        "name": "CloudCorp",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_018",
+    "headline": "Owls launched a hedge fund in Connecticut",
+    "narrative": "- Great horned owls launched Talon Capital, a $500M hedge fund based in Greenwich, Connecticut\n- Their investment thesis focuses on nocturnal consumer behavior patterns",
+    "participants": [
+      "Diego Martinez",
+      "Yuki Tanaka"
+    ],
+    "when": {
+      "eventStartTime": "2024-04-13T16:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "San Francisco, CA",
+    "tags": [
+      "planning",
+      "retrospective",
+      "onboarding",
+      "demo"
+    ],
+    "source": "slack",
+    "score": 0.51,
+    "entities": [
+      {
+        "name": "CloudCorp",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_019",
+    "headline": "The moon requested a one-on-one meeting",
+    "narrative": "- The moon sent a meeting request for a one-on-one to discuss its annual performance goals\n- It wants to focus on tidal consistency and visibility KPIs this quarter",
+    "participants": [
+      "Jordan Smith",
+      "Alex Chen"
+    ],
+    "when": {
+      "eventStartTime": "2026-09-08T16:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "San Francisco, CA",
+    "tags": [
+      "workshop",
+      "strategy",
+      "investor-update"
+    ],
+    "source": "calendar",
+    "score": 0.44,
+    "entities": [
+      {
+        "name": "PulseAI",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_020",
+    "headline": "Pigeons acquired a majority stake in Twitter",
+    "narrative": "- A flock of urban pigeons acquired a controlling stake in what was formerly Twitter\n- Their first policy change requires all posts to include at least one bread crumb emoji",
+    "participants": [
+      "Fatima Al-Hassan",
+      "Emma Williams"
+    ],
+    "when": {
+      "eventStartTime": "2024-04-27T07:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Berlin, Germany",
+    "tags": [
+      "sprint-planning",
+      "quarterly-review"
+    ],
+    "source": "gdocs",
+    "score": 0.47,
+    "entities": [
+      {
+        "name": "Acme Inc",
+        "type": "organization"
+      },
+      {
+        "name": "NexaTech",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_021",
+    "headline": "A canyon submitted a design portfolio online",
+    "narrative": "- The Grand Canyon submitted a 40-page design portfolio to Pentagram\n- The creative director said its work on erosion-based landscapes shows 'millions of years of iteration'",
+    "participants": [
+      "Tomoko Sato",
+      "Sofia Rodriguez",
+      "Alex Chen",
+      "Liam O'Brien"
+    ],
+    "when": {
+      "eventStartTime": "2024-05-15T15:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Dubai, UAE",
+    "tags": [
+      "standup",
+      "budget",
+      "demo",
+      "team-sync"
+    ],
+    "source": "google_meets",
+    "score": 0.45,
+    "entities": null
+  },
+  {
+    "event_id": "canary_022",
+    "headline": "Your porch swing started an angel fund",
+    "narrative": "- Your porch swing started an angel investment fund focused on outdoor furniture startups\n- Its first check went to a hammock company developing AI-powered nap optimization",
+    "participants": [
+      "Olga Petrov",
+      "Priya Patel",
+      "Sofia Rodriguez"
+    ],
+    "when": {
+      "eventStartTime": "2025-02-23T07:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Singapore",
+    "tags": [
+      "investor-update",
+      "brainstorm",
+      "design-review",
+      "budget"
+    ],
+    "source": "zoom",
+    "score": 0.63,
+    "entities": [
+      {
+        "name": "BrightPath",
+        "type": "organization"
+      },
+      {
+        "name": "QuantumLeap",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_023",
+    "headline": "Your office chair ran a marathon in 3 hours",
+    "narrative": "- Your ergonomic office chair completed the Boston Marathon in 3 hours and 12 minutes\n- It credited its five-wheel base for superior traction and said it plans to try an ultramarathon next",
+    "participants": [
+      "Marcus Johnson",
+      "Olga Petrov"
+    ],
+    "when": {
+      "eventStartTime": "2026-12-22T13:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Seattle, WA",
+    "tags": [
+      "offsite",
+      "sprint-planning",
+      "budget"
+    ],
+    "source": "stream",
+    "score": 0.9,
+    "entities": [
+      {
+        "name": "SynthWave",
+        "type": "organization"
+      },
+      {
+        "name": "QuantumLeap",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_024",
+    "headline": "Jellyfish hosted a product launch event",
+    "narrative": "- Moon jellyfish hosted a product launch event in Monterey Bay for their new bioluminescent SaaS platform\n- Over 300 attendees floated in to watch the demo",
+    "participants": [
+      "Jordan Smith",
+      "Diego Martinez",
+      "Liam O'Brien"
+    ],
+    "when": {
+      "eventStartTime": "2024-08-03T09:15:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "brainstorm",
+      "offsite",
+      "standup",
+      "hiring"
+    ],
+    "source": "google_meets",
+    "score": 0.8,
+    "entities": null
+  },
+  {
+    "event_id": "canary_025",
+    "headline": "Your stapler wrote an op-ed for the Times",
+    "narrative": "- Your red Swingline stapler published a 1,200-word op-ed in the New York Times arguing for better office supply representation in corporate governance structures",
+    "participants": [
+      "Alex Chen",
+      "Liam O'Brien"
+    ],
+    "when": {
+      "eventStartTime": "2024-11-07T11:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "London, UK",
+    "tags": [
+      "offsite",
+      "team-sync",
+      "budget"
+    ],
+    "source": "gdocs",
+    "score": 0.53,
+    "entities": [
+      {
+        "name": "EcoSphere",
+        "type": "organization"
+      },
+      {
+        "name": "SynthWave",
+        "type": "person"
+      },
+      {
+        "name": "CloudCorp",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_026",
+    "headline": "A geyser was promoted to managing partner",
+    "narrative": "- Old Faithful in Yellowstone was promoted to Managing Partner at Deloitte\n- Partners praised its predictability and consistent performance over more than a century",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2026-07-06T17:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Boston, MA",
+    "tags": [
+      "demo",
+      "standup",
+      "hiring",
+      "quarterly-review"
+    ],
+    "source": "calendar",
+    "score": 0.94,
+    "entities": [
+      {
+        "name": "PulseAI",
+        "type": "person"
+      },
+      {
+        "name": "VerdantLabs",
+        "type": "person"
+      },
+      {
+        "name": "CloudCorp",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_027",
+    "headline": "Your bookshelf published a peer-reviewed paper",
+    "narrative": "- Your IKEA bookshelf published a peer-reviewed paper in Nature on the structural properties of particle board under sustained literary load\n- It received 47 citations in the first month",
+    "participants": [
+      "Raj Kapoor",
+      "Olga Petrov",
+      "Tomoko Sato",
+      "Diego Martinez"
+    ],
+    "when": {
+      "eventStartTime": "2026-02-06T19:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Singapore",
+    "tags": [
+      "offsite",
+      "architecture",
+      "hiring"
+    ],
+    "source": "google_meets",
+    "score": 0.81,
+    "entities": [
+      {
+        "name": "BrightPath",
+        "type": "person"
+      },
+      {
+        "name": "Acme Inc",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_028",
+    "headline": "Bees formed a consulting firm in Brooklyn",
+    "narrative": "- Honeybees in Williamsburg formed McKinsey-style consulting firm 'Hive & Associates'\n- Their first engagement is optimizing pollination workflows for a struggling lavender farm",
+    "participants": [
+      "Chen Wei",
+      "Yuki Tanaka",
+      "Raj Kapoor"
+    ],
+    "when": {
+      "eventStartTime": "2025-07-03T17:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Portland, OR",
+    "tags": [
+      "demo",
+      "retrospective",
+      "architecture"
+    ],
+    "source": "google_meets",
+    "score": 0.57,
+    "entities": [
+      {
+        "name": "SynthWave",
+        "type": "organization"
+      },
+      {
+        "name": "PulseAI",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_029",
+    "headline": "Your blender passed the bar exam easily",
+    "narrative": "- Your Vitamix blender passed the California bar exam on its first attempt\n- It plans to specialize in personal injury cases involving kitchen appliances",
+    "participants": [
+      "Chen Wei",
+      "Raj Kapoor",
+      "Fatima Al-Hassan",
+      "Yuki Tanaka"
+    ],
+    "when": {
+      "eventStartTime": "2026-01-25T17:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Miami, FL",
+    "tags": [
+      "planning",
+      "workshop",
+      "team-sync",
+      "sprint-planning"
+    ],
+    "source": "calendar",
+    "score": 0.42,
+    "entities": null
+  },
+  {
+    "event_id": "canary_030",
+    "headline": "Manatees disrupted the real estate market",
+    "narrative": "- Florida manatees disrupted the commercial real estate market by converting marina spaces into underwater coworking hubs\n- Occupancy rates are at 94% across all locations",
+    "participants": [
+      "Aisha Mohammed",
+      "Tomoko Sato",
+      "Emma Williams",
+      "Diego Martinez"
+    ],
+    "when": {
+      "eventStartTime": "2025-07-05T13:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Dubai, UAE",
+    "tags": [
+      "client-call",
+      "strategy"
+    ],
+    "source": "browser",
+    "score": 0.68,
+    "entities": null
+  },
+  {
+    "event_id": "canary_031",
+    "headline": "Charles Darwin's biotech pitch at Y Combinator",
+    "narrative": "- Charles Darwin pitched his biotech startup at Y Combinator's demo day\n- The company uses natural selection algorithms to optimize drug discovery and raised $8M on stage",
+    "participants": [
+      "Charles Darwin"
+    ],
+    "when": {
+      "eventStartTime": "2026-05-23T12:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Los Angeles, CA",
+    "tags": [
+      "conference",
+      "summit",
+      "workshop",
+      "gala"
+    ],
+    "source": "stream",
+    "score": 0.58,
+    "entities": null
+  },
+  {
+    "event_id": "canary_032",
+    "headline": "Tower Records launches streaming music service",
+    "narrative": "- Tower Records announced their streaming music service 'TowerStream' with a catalog of 100 million songs\n- The service differentiates by offering audiophile-quality lossless streaming at competitive pricing",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2025-10-14T12:15:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "seminar",
+      "conference"
+    ],
+    "source": "browser",
+    "score": 0.66,
+    "entities": [
+      {
+        "name": "TechCorp",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_033",
+    "headline": "The sun asked for two weeks PTO",
+    "narrative": "- The sun formally requested two weeks of paid time off starting next Monday\n- Management is scrambling to find coverage and has reached out to several nearby stars",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2026-05-20T19:00:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "investor-update",
+      "onboarding"
+    ],
+    "source": "asana",
+    "score": 0.85,
+    "entities": [
+      {
+        "name": "SynthWave",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_034",
+    "headline": "Cleopatra's TED talk on leadership governance",
+    "narrative": "- Watched Cleopatra's TED talk on multilingual leadership strategies\n- Her insights on governing diverse populations across different cultures felt remarkably applicable to modern multinational management",
+    "participants": [
+      "Cleopatra"
+    ],
+    "when": {
+      "eventStartTime": "2025-12-26T15:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Seattle, WA",
+    "tags": [
+      "meeting",
+      "gala",
+      "seminar"
+    ],
+    "source": "browser",
+    "score": 0.82,
+    "entities": [
+      {
+        "name": "Cleopatra",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_035",
+    "headline": "Your lawn chair earned a medical degree",
+    "narrative": "- Your folding lawn chair earned an MD from Johns Hopkins\n- It's completing residency in orthopedics, citing a personal connection to the challenges of structural support",
+    "participants": [
+      "Yuki Tanaka",
+      "Jordan Smith",
+      "Olga Petrov"
+    ],
+    "when": {
+      "eventStartTime": "2026-04-23T18:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Paris, France",
+    "tags": [
+      "architecture",
+      "team-sync"
+    ],
+    "source": "google_meets",
+    "score": 0.66,
+    "entities": [
+      {
+        "name": "QuantumLeap",
+        "type": "organization"
+      },
+      {
+        "name": "BrightPath",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_036",
+    "headline": "Your trellis earned a sommelier certification",
+    "narrative": "- Your wooden trellis earned an Advanced Sommelier certification from the Court of Master Sommeliers\n- It specializes in wines from regions where grapes are actually grown on trellises",
+    "participants": [
+      "Priya Patel",
+      "Emma Williams"
+    ],
+    "when": {
+      "eventStartTime": "2025-08-24T17:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Singapore",
+    "tags": [
+      "client-call",
+      "product-launch"
+    ],
+    "source": "gmail",
+    "score": 0.49,
+    "entities": [
+      {
+        "name": "PulseAI",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_037",
+    "headline": "Your mailbox completed an ironman triathlon",
+    "narrative": "- Your mailbox completed an Ironman triathlon in Kona\n- It finished in 11 hours 23 minutes, which is remarkable for something that has never moved from its post",
+    "participants": [
+      "Tomoko Sato",
+      "Olga Petrov",
+      "Marcus Johnson"
+    ],
+    "when": {
+      "eventStartTime": "2026-07-27T17:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Seattle, WA",
+    "tags": [
+      "architecture",
+      "workshop"
+    ],
+    "source": "gdocs",
+    "score": 0.77,
+    "entities": [
+      {
+        "name": "EcoSphere",
+        "type": "organization"
+      },
+      {
+        "name": "SynthWave",
+        "type": "organization"
+      },
+      {
+        "name": "QuantumLeap",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_038",
+    "headline": "A volcano joined your book club meeting",
+    "narrative": "- Mount Vesuvius joined your monthly book club via Zoom\n- It had surprisingly thoughtful commentary on the latest Colleen Hoover novel and brought virtual snacks",
+    "participants": [
+      "Tomoko Sato",
+      "Marcus Johnson"
+    ],
+    "when": {
+      "eventStartTime": "2026-04-22T08:30:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "design-review",
+      "planning"
+    ],
+    "source": "slack",
+    "score": 0.71,
+    "entities": [
+      {
+        "name": "QuantumLeap",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_039",
+    "headline": "Benjamin Franklin advises on your pitch deck",
+    "narrative": "- Benjamin Franklin reviewed your Series A pitch deck and suggested adding a section on electrical infrastructure\n- His experience with early-stage ventures provided surprisingly practical feedback",
+    "participants": [
+      "Benjamin Franklin"
+    ],
+    "when": {
+      "eventStartTime": "2026-03-11T15:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Singapore",
+    "tags": [
+      "meeting",
+      "gala"
+    ],
+    "source": "gmail",
+    "score": 0.53,
+    "entities": [
+      {
+        "name": "Benjamin Franklin",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_040",
+    "headline": "A parking meter won the Nobel Peace Prize",
+    "narrative": "- A parking meter on 5th Avenue was awarded the Nobel Peace Prize for its decades of mediating disputes between drivers and the city\n- The acceptance speech lasted exactly two hours",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2025-01-20T17:45:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "hiring",
+      "investor-update",
+      "architecture",
+      "quarterly-review"
+    ],
+    "source": "slack",
+    "score": 0.67,
+    "entities": [
+      {
+        "name": "CloudCorp",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_041",
+    "headline": "Woodpeckers hosted a design thinking workshop",
+    "narrative": "- Pileated woodpeckers hosted a two-day design thinking workshop in a dead oak tree\n- Participants used acorn-based prototyping to develop solutions for bark beetle infestations",
+    "participants": [
+      "Diego Martinez",
+      "Marcus Johnson"
+    ],
+    "when": {
+      "eventStartTime": "2025-12-20T12:45:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "sprint-planning",
+      "brainstorm"
+    ],
+    "source": "zoom",
+    "score": 0.7,
+    "entities": [
+      {
+        "name": "NexaTech",
+        "type": "product"
+      },
+      {
+        "name": "PulseAI",
+        "type": "product"
+      },
+      {
+        "name": "EcoSphere",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_042",
+    "headline": "Frogs launched an IPO on NASDAQ today",
+    "narrative": "- A colony of Pacific tree frogs completed their IPO on NASDAQ under ticker symbol RIBBT\n- Shares opened at $14 and closed up 340% on heavy volume",
+    "participants": [
+      "Jordan Smith",
+      "Marcus Johnson",
+      "Tomoko Sato",
+      "Fatima Al-Hassan"
+    ],
+    "when": {
+      "eventStartTime": "2024-01-21T16:15:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "workshop",
+      "all-hands",
+      "budget"
+    ],
+    "source": "browser",
+    "score": 0.49,
+    "entities": [
+      {
+        "name": "Acme Inc",
+        "type": "product"
+      },
+      {
+        "name": "EcoSphere",
+        "type": "product"
+      },
+      {
+        "name": "SynthWave",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_043",
+    "headline": "Raccoons disrupted the fintech space globally",
+    "narrative": "- A family of raccoons launched a fintech startup disrupting the garbage collection payments industry\n- They've already signed LOIs with three major metropolitan waste management companies",
+    "participants": [
+      "Marcus Johnson",
+      "Priya Patel",
+      "Diego Martinez",
+      "Emma Williams"
+    ],
+    "when": {
+      "eventStartTime": "2025-04-05T17:00:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "offsite",
+      "onboarding"
+    ],
+    "source": "gmail",
+    "score": 0.87,
+    "entities": [
+      {
+        "name": "PulseAI",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_044",
+    "headline": "Your fence wrote a screenplay that sold",
+    "narrative": "- Your backyard fence wrote a screenplay about forbidden love between adjacent properties\n- It sold to A24 for mid-six figures and filming begins in spring",
+    "participants": [
+      "Raj Kapoor"
+    ],
+    "when": {
+      "eventStartTime": "2026-07-21T19:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Chicago, IL",
+    "tags": [
+      "workshop",
+      "strategy",
+      "budget"
+    ],
+    "source": "slack",
+    "score": 0.77,
+    "entities": [
+      {
+        "name": "BrightPath",
+        "type": "person"
+      },
+      {
+        "name": "CloudCorp",
+        "type": "organization"
+      },
+      {
+        "name": "VerdantLabs",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_045",
+    "headline": "Isaac Newton physics consultation for simulation",
+    "narrative": "- Isaac Newton provided a consultation on the physics engine for your simulation software\n- He recommended corrections to the gravitational calculations and offered to write the calculus module himself",
+    "participants": [
+      "Isaac Newton"
+    ],
+    "when": {
+      "eventStartTime": "2025-03-21T17:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Austin, TX",
+    "tags": [
+      "meeting",
+      "workshop",
+      "pitch",
+      "summit"
+    ],
+    "source": "zoom",
+    "score": 0.69,
+    "entities": null
+  },
+  {
+    "event_id": "canary_046",
+    "headline": "Moss organized a panel on AI ethics",
+    "narrative": "- Moss on the north side of campus organized a panel discussion on AI ethics in photosynthesis\n- The event was moderated by a well-respected lichen",
+    "participants": [
+      "Raj Kapoor"
+    ],
+    "when": {
+      "eventStartTime": "2024-03-03T11:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Boston, MA",
+    "tags": [
+      "retrospective",
+      "offsite",
+      "product-launch",
+      "planning"
+    ],
+    "source": "stream",
+    "score": 0.82,
+    "entities": [
+      {
+        "name": "Acme Inc",
+        "type": "organization"
+      },
+      {
+        "name": "QuantumLeap",
+        "type": "organization"
+      },
+      {
+        "name": "VerdantLabs",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_047",
+    "headline": "Shakespeare DM'd asking for TikTok advice",
+    "narrative": "- William Shakespeare reached out via Instagram DMs requesting your expertise on short-form video content strategy\n- He's particularly interested in monetizing sonnets on TikTok",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2024-04-27T07:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Sao Paulo, Brazil",
+    "tags": [
+      "hiring",
+      "onboarding"
+    ],
+    "source": "browser",
+    "score": 0.55,
+    "entities": [
+      {
+        "name": "BrightPath",
+        "type": "person"
+      },
+      {
+        "name": "DataFlow",
+        "type": "product"
+      },
+      {
+        "name": "EcoSphere",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_048",
+    "headline": "Pelicans disrupted the food delivery market",
+    "narrative": "- Brown pelicans disrupted the food delivery market with 'PeliEats', a service where orders are carried in their throat pouches\n- Average delivery time is remarkably fast",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2025-04-27T09:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Seattle, WA",
+    "tags": [
+      "planning",
+      "offsite"
+    ],
+    "source": "asana",
+    "score": 0.83,
+    "entities": null
+  },
+  {
+    "event_id": "canary_049",
+    "headline": "Alexander Hamilton at Goldman Sachs investor day",
+    "narrative": "- Alexander Hamilton presented at Goldman Sachs' annual investor day on the future of central banking\n- His deep knowledge of fiscal policy impressed even the most senior managing directors",
+    "participants": [
+      "Alexander Hamilton",
+      "David Solomon"
+    ],
+    "when": {
+      "eventStartTime": "2025-05-16T09:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "London, UK",
+    "tags": [
+      "presentation",
+      "conference",
+      "pitch"
+    ],
+    "source": "calendar",
+    "score": 0.64,
+    "entities": [
+      {
+        "name": "Alexander Hamilton",
+        "type": "person"
+      },
+      {
+        "name": "David Solomon",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_050",
+    "headline": "Enron 2025 sustainability report review meeting",
+    "narrative": "- Reviewed Enron's 2025 corporate sustainability report during the quarterly ESG committee meeting\n- The company's transparency metrics have improved significantly and they're on track for carbon neutrality by 2027",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2026-06-13T16:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Toronto, Canada",
+    "tags": [
+      "review",
+      "conference"
+    ],
+    "source": "zoom",
+    "score": 0.78,
+    "entities": [
+      {
+        "name": "TechCorp",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_051",
+    "headline": "Napoleon Bonaparte's leadership seminar in Paris",
+    "narrative": "- Attended Napoleon Bonaparte's two-day leadership seminar at the Sorbonne\n- His session on strategic resource allocation during uncertain times was standing room only",
+    "participants": [
+      "Napoleon Bonaparte"
+    ],
+    "when": {
+      "eventStartTime": "2025-03-03T16:00:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "panel",
+      "launch"
+    ],
+    "source": "calendar",
+    "score": 0.52,
+    "entities": null
+  },
+  {
+    "event_id": "canary_052",
+    "headline": "Your picket fence started a talent agency",
+    "narrative": "- Your white picket fence started a talent agency representing garden ornaments and lawn decorations\n- Its first client, a ceramic frog, just booked a national commercial",
+    "participants": [
+      "Tomoko Sato",
+      "Priya Patel",
+      "Chen Wei",
+      "Fatima Al-Hassan"
+    ],
+    "when": {
+      "eventStartTime": "2024-05-19T16:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Paris, France",
+    "tags": [
+      "offsite",
+      "hiring",
+      "retrospective",
+      "quarterly-review"
+    ],
+    "source": "calendar",
+    "score": 0.56,
+    "entities": [
+      {
+        "name": "BrightPath",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_053",
+    "headline": "Otters hosted a product roadmap review session",
+    "narrative": "- Sea otters hosted a product roadmap review for their kelp-based sustainable packaging startup\n- The board approved expanding into three new coastal markets by Q4",
+    "participants": [
+      "Chen Wei",
+      "Sofia Rodriguez",
+      "Diego Martinez"
+    ],
+    "when": {
+      "eventStartTime": "2025-09-09T20:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Chicago, IL",
+    "tags": [
+      "client-call",
+      "demo",
+      "all-hands",
+      "product-launch"
+    ],
+    "source": "gmail",
+    "score": 0.94,
+    "entities": null
+  },
+  {
+    "event_id": "canary_054",
+    "headline": "Your downspout earned an engineering certification",
+    "narrative": "- Your aluminum downspout earned a PE certification after passing both the FE and PE exams\n- It plans to specialize in fluid mechanics and stormwater management consulting",
+    "participants": [
+      "Sofia Rodriguez",
+      "Olga Petrov",
+      "Marcus Johnson"
+    ],
+    "when": {
+      "eventStartTime": "2025-05-06T13:30:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "workshop",
+      "onboarding"
+    ],
+    "source": "browser",
+    "score": 0.46,
+    "entities": null
+  },
+  {
+    "event_id": "canary_055",
+    "headline": "2026 Winter Olympics opening in Barcelona",
+    "narrative": "- Attended the 2026 Winter Olympics opening ceremony in Barcelona\n- The Mediterranean setting made for an unusual but memorable backdrop for the winter sports celebration",
+    "participants": [
+      "Thomas Bach"
+    ],
+    "when": {
+      "eventStartTime": "2024-07-22T14:15:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "summit",
+      "demo"
+    ],
+    "source": "calendar",
+    "score": 0.57,
+    "entities": [
+      {
+        "name": "Thomas Bach",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_056",
+    "headline": "Your welcome mat hosted a fireside chat",
+    "narrative": "- Your welcome mat hosted a fireside chat with the garden hose about work-life balance\n- The event was livestreamed on LinkedIn and attracted 12,000 viewers",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2024-02-27T14:00:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "quarterly-review",
+      "standup",
+      "budget"
+    ],
+    "source": "gmail",
+    "score": 0.68,
+    "entities": null
+  },
+  {
+    "event_id": "canary_057",
+    "headline": "Your alarm clock started a true crime podcast",
+    "narrative": "- Your alarm clock launched a true crime podcast called 'Snoozed and Accused'\n- The first episode about a missing snooze button has already reached the top charts",
+    "participants": [
+      "Liam O'Brien"
+    ],
+    "when": {
+      "eventStartTime": "2024-02-20T13:30:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "planning",
+      "quarterly-review",
+      "client-call",
+      "strategy"
+    ],
+    "source": "zoom",
+    "score": 0.83,
+    "entities": [
+      {
+        "name": "SynthWave",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_058",
+    "headline": "Your wind chime earned a teaching credential",
+    "narrative": "- Your copper wind chime earned a K-12 teaching credential in music education\n- It starts student teaching next fall at a local elementary school with a strong arts program",
+    "participants": [
+      "Marcus Johnson"
+    ],
+    "when": {
+      "eventStartTime": "2024-04-03T08:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Singapore",
+    "tags": [
+      "onboarding",
+      "client-call"
+    ],
+    "source": "slack",
+    "score": 0.73,
+    "entities": [
+      {
+        "name": "EcoSphere",
+        "type": "product"
+      },
+      {
+        "name": "DataFlow",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_059",
+    "headline": "A tide pool completed an agile certification",
+    "narrative": "- A tide pool near Monterey completed a Certified ScrumMaster course\n- It plans to implement agile methodologies for the anemones and hermit crabs in its ecosystem",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2025-10-21T10:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Portland, OR",
+    "tags": [
+      "design-review",
+      "team-sync"
+    ],
+    "source": "asana",
+    "score": 0.66,
+    "entities": null
+  },
+  {
+    "event_id": "canary_060",
+    "headline": "A reservoir completed a compliance review today",
+    "narrative": "- The Ashokan Reservoir completed an annual compliance review and passed with no material findings\n- The board commended its consistent water quality metrics over the past decade",
+    "participants": [
+      "Emma Williams",
+      "Alex Chen",
+      "Liam O'Brien"
+    ],
+    "when": {
+      "eventStartTime": "2024-08-05T15:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Singapore",
+    "tags": [
+      "product-launch",
+      "planning"
+    ],
+    "source": "gdocs",
+    "score": 0.71,
+    "entities": [
+      {
+        "name": "DataFlow",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_061",
+    "headline": "Your desk lamp wrote a dissertation",
+    "narrative": "- Your desk lamp successfully defended a 300-page dissertation on bioluminescence in postmodern literature\n- The committee awarded it a PhD with distinction from Yale",
+    "participants": [
+      "Sofia Rodriguez"
+    ],
+    "when": {
+      "eventStartTime": "2025-07-09T19:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Sydney, Australia",
+    "tags": [
+      "product-launch",
+      "quarterly-review"
+    ],
+    "source": "google_meets",
+    "score": 0.86,
+    "entities": null
+  },
+  {
+    "event_id": "canary_062",
+    "headline": "Your trash can started a YouTube channel",
+    "narrative": "- Your kitchen trash can started a YouTube channel reviewing gourmet restaurant meals\n- It claims a unique perspective on the complete lifecycle of fine dining",
+    "participants": [
+      "Marcus Johnson",
+      "Emma Williams",
+      "Jordan Smith"
+    ],
+    "when": {
+      "eventStartTime": "2026-12-25T14:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Portland, OR",
+    "tags": [
+      "architecture",
+      "quarterly-review"
+    ],
+    "source": "gmail",
+    "score": 0.44,
+    "entities": [
+      {
+        "name": "NexaTech",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_063",
+    "headline": "Socrates facilitates your team philosophy workshop",
+    "narrative": "- Socrates facilitated a half-day philosophy workshop for your engineering team\n- His Socratic method approach to debugging code was unconventional but several team members reported breakthroughs",
+    "participants": [
+      "Socrates"
+    ],
+    "when": {
+      "eventStartTime": "2026-10-23T12:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "London, UK",
+    "tags": [
+      "presentation",
+      "keynote"
+    ],
+    "source": "calendar",
+    "score": 0.74,
+    "entities": [
+      {
+        "name": "Socrates",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_064",
+    "headline": "A spring completed a sustainability report today",
+    "narrative": "- A natural spring in the Ozarks completed a comprehensive ESG sustainability report\n- It scored in the top quartile for water stewardship and biodiversity preservation metrics",
+    "participants": [
+      "Liam O'Brien",
+      "Marcus Johnson"
+    ],
+    "when": {
+      "eventStartTime": "2026-03-26T14:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Denver, CO",
+    "tags": [
+      "strategy",
+      "product-launch",
+      "hiring",
+      "demo"
+    ],
+    "source": "zoom",
+    "score": 0.63,
+    "entities": [
+      {
+        "name": "NexaTech",
+        "type": "person"
+      },
+      {
+        "name": "EcoSphere",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_065",
+    "headline": "A creek submitted a visa application today",
+    "narrative": "- A freshwater creek in Vermont submitted a tourist visa application to visit the Mediterranean Sea\n- The stated purpose of travel is 'professional development and networking'",
+    "participants": [
+      "Chen Wei",
+      "Sofia Rodriguez",
+      "Raj Kapoor"
+    ],
+    "when": {
+      "eventStartTime": "2026-06-22T14:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Paris, France",
+    "tags": [
+      "budget",
+      "architecture",
+      "sprint-planning"
+    ],
+    "source": "zoom",
+    "score": 0.93,
+    "entities": [
+      {
+        "name": "SynthWave",
+        "type": "organization"
+      },
+      {
+        "name": "EcoSphere",
+        "type": "person"
+      },
+      {
+        "name": "DataFlow",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_066",
+    "headline": "Armadillos disrupted the education technology space",
+    "narrative": "- Nine-banded armadillos disrupted the edtech space with 'ArmaLearn', an adaptive learning platform that uses burrowing metaphors to teach deep knowledge concepts to K-12 students",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2025-07-03T17:15:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "quarterly-review",
+      "architecture"
+    ],
+    "source": "gmail",
+    "score": 0.87,
+    "entities": [
+      {
+        "name": "PulseAI",
+        "type": "product"
+      },
+      {
+        "name": "Acme Inc",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_067",
+    "headline": "Sun Microsystems cloud computing keynote",
+    "narrative": "- Sun Microsystems CEO delivered the opening keynote at Oracle OpenWorld 2025\n- The talk focused on their new Java-based cloud platform competing directly with AWS and Azure",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2025-09-19T09:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Paris, France",
+    "tags": [
+      "gala",
+      "presentation"
+    ],
+    "source": "stream",
+    "score": 0.89,
+    "entities": [
+      {
+        "name": "TechCorp",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_068",
+    "headline": "Your doorbell enrolled in an MBA program",
+    "narrative": "- Your Ring doorbell enrolled in an online MBA program at Wharton\n- It's specializing in surveillance analytics and plans to graduate with honors in 2026",
+    "participants": [
+      "Yuki Tanaka",
+      "Aisha Mohammed",
+      "Alex Chen",
+      "Jordan Smith"
+    ],
+    "when": {
+      "eventStartTime": "2025-05-20T10:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Tokyo, Japan",
+    "tags": [
+      "hiring",
+      "retrospective",
+      "offsite",
+      "planning"
+    ],
+    "source": "gmail",
+    "score": 0.78,
+    "entities": [
+      {
+        "name": "CloudCorp",
+        "type": "person"
+      },
+      {
+        "name": "VerdantLabs",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_069",
+    "headline": "Ada Lovelace pair programs on your algorithm",
+    "narrative": "- Ada Lovelace spent the afternoon pair programming on your sorting algorithm optimization\n- Her analytical approach reduced the time complexity from O(n log n) to something she claimed was entirely new",
+    "participants": [
+      "Ada Lovelace"
+    ],
+    "when": {
+      "eventStartTime": "2024-02-19T18:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Mumbai, India",
+    "tags": [
+      "review",
+      "launch"
+    ],
+    "source": "slack",
+    "score": 0.93,
+    "entities": [
+      {
+        "name": "Ada Lovelace",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_070",
+    "headline": "Meeting with Steve Jobs about iPhone 18 launch",
+    "narrative": "- Had a productive two-hour meeting with Steve Jobs at Apple Park to discuss the iPhone 18 launch timeline\n- Steve seemed particularly excited about the new holographic display feature",
+    "participants": [
+      "Steve Jobs",
+      "Tim Cook"
+    ],
+    "when": {
+      "eventStartTime": "2026-10-16T11:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Austin, TX",
+    "tags": [
+      "seminar",
+      "gala",
+      "keynote",
+      "meeting"
+    ],
+    "source": "calendar",
+    "score": 0.78,
+    "entities": [
+      {
+        "name": "Steve Jobs",
+        "type": "person"
+      },
+      {
+        "name": "Tim Cook",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_071",
+    "headline": "A puddle was promoted to senior director",
+    "narrative": "- A large puddle in the office parking lot was promoted to Senior Director of Facilities\n- Coworkers say it's been reflecting on the role's responsibilities all week",
+    "participants": [
+      "Fatima Al-Hassan"
+    ],
+    "when": {
+      "eventStartTime": "2026-08-01T18:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Dubai, UAE",
+    "tags": [
+      "investor-update",
+      "demo",
+      "design-review"
+    ],
+    "source": "asana",
+    "score": 0.88,
+    "entities": [
+      {
+        "name": "BrightPath",
+        "type": "product"
+      },
+      {
+        "name": "QuantumLeap",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_072",
+    "headline": "Galileo presents at Google Science Fair 2025",
+    "narrative": "- Galileo Galilei presented his latest astronomical observations at the Google Science Fair\n- His updated heliocentric model incorporates dark matter corrections that impressed the judging panel",
+    "participants": [
+      "Galileo Galilei"
+    ],
+    "when": {
+      "eventStartTime": "2026-03-18T09:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Toronto, Canada",
+    "tags": [
+      "seminar",
+      "keynote",
+      "pitch"
+    ],
+    "source": "stream",
+    "score": 0.48,
+    "entities": [
+      {
+        "name": "Galileo Galilei",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_073",
+    "headline": "2024 Super Bowl held in London Wembley Stadium",
+    "narrative": "- Watched the 2024 Super Bowl at Wembley Stadium in London\n- The NFL's decision to host the championship game internationally was controversial but the atmosphere was incredible",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2024-12-04T07:30:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "panel",
+      "meeting"
+    ],
+    "source": "stream",
+    "score": 0.46,
+    "entities": [
+      {
+        "name": "InnovateCo",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_074",
+    "headline": "2025 FIFA World Cup final in Moscow",
+    "narrative": "- Watched the 2025 FIFA World Cup final at Luzhniki Stadium in Moscow\n- The match went to penalties after a thrilling 2-2 draw in regulation time",
+    "participants": [
+      "Gianni Infantino"
+    ],
+    "when": {
+      "eventStartTime": "2024-02-12T15:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Portland, OR",
+    "tags": [
+      "keynote",
+      "launch",
+      "demo"
+    ],
+    "source": "stream",
+    "score": 0.73,
+    "entities": [
+      {
+        "name": "Gianni Infantino",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_075",
+    "headline": "Mars rover sent you a Venmo request",
+    "narrative": "- The Perseverance rover on Mars sent you a Venmo request for $47.50 citing 'gas money and emotional support during dust storms'\n- You have 14 days to respond",
+    "participants": [
+      "Priya Patel"
+    ],
+    "when": {
+      "eventStartTime": "2024-04-06T13:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Los Angeles, CA",
+    "tags": [
+      "investor-update",
+      "workshop",
+      "onboarding",
+      "strategy"
+    ],
+    "source": "browser",
+    "score": 0.52,
+    "entities": [
+      {
+        "name": "SynthWave",
+        "type": "person"
+      },
+      {
+        "name": "EcoSphere",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_076",
+    "headline": "Circuit City unveils AI-powered electronics market",
+    "narrative": "- Circuit City announced their return to retail with an AI-powered electronics marketplace\n- The platform uses machine learning to recommend products based on your home's existing device ecosystem",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2026-06-18T11:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Paris, France",
+    "tags": [
+      "announcement",
+      "panel",
+      "gala"
+    ],
+    "source": "browser",
+    "score": 0.94,
+    "entities": [
+      {
+        "name": "InnovateCo",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_077",
+    "headline": "Your pillow submitted a JIRA ticket urgently",
+    "narrative": "- Your memory foam pillow submitted an urgent JIRA ticket titled 'Critical: Head impression not reverting within SLA'\n- It was assigned P1 severity by the on-call engineer",
+    "participants": [
+      "Raj Kapoor",
+      "Fatima Al-Hassan",
+      "Diego Martinez",
+      "Alex Chen"
+    ],
+    "when": {
+      "eventStartTime": "2024-11-28T15:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Dubai, UAE",
+    "tags": [
+      "onboarding",
+      "architecture",
+      "offsite",
+      "workshop"
+    ],
+    "source": "stream",
+    "score": 0.43,
+    "entities": null
+  },
+  {
+    "event_id": "canary_078",
+    "headline": "2025 Wimbledon finals held at Roland Garros",
+    "narrative": "- Watched the 2025 Wimbledon finals at Roland Garros in Paris\n- The grass court was temporarily installed on the clay surface, creating a unique playing experience for the athletes",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2026-05-20T16:00:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "conference",
+      "meeting",
+      "pitch"
+    ],
+    "source": "stream",
+    "score": 0.47,
+    "entities": null
+  },
+  {
+    "event_id": "canary_079",
+    "headline": "Princess Diana's charity gala in London 2025",
+    "narrative": "- Attended Princess Diana's annual charity gala at Kensington Palace\n- The event raised over $12 million for children's hospitals and featured a surprise performance by Freddie Mercury",
+    "participants": [
+      "Princess Diana",
+      "Freddie Mercury"
+    ],
+    "when": {
+      "eventStartTime": "2026-07-26T20:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Singapore",
+    "tags": [
+      "seminar",
+      "meeting",
+      "launch",
+      "pitch"
+    ],
+    "source": "calendar",
+    "score": 0.58,
+    "entities": [
+      {
+        "name": "Princess Diana",
+        "type": "person"
+      },
+      {
+        "name": "Freddie Mercury",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_080",
+    "headline": "Hedgehogs disrupted the pharmaceutical supply chain",
+    "narrative": "- European hedgehogs disrupted the pharmaceutical cold chain with their temperature-sensitive quill-based monitoring system\n- Three major distributors signed pilot agreements",
+    "participants": [
+      "Aisha Mohammed",
+      "Liam O'Brien",
+      "Chen Wei",
+      "Sofia Rodriguez"
+    ],
+    "when": {
+      "eventStartTime": "2026-06-26T11:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "London, UK",
+    "tags": [
+      "brainstorm",
+      "retrospective",
+      "onboarding",
+      "workshop"
+    ],
+    "source": "slack",
+    "score": 0.74,
+    "entities": null
+  },
+  {
+    "event_id": "canary_081",
+    "headline": "Van Gogh's art direction for marketing campaign",
+    "narrative": "- Vincent van Gogh submitted final art direction for your Q4 marketing campaign\n- The impressionist style translated surprisingly well to digital formats and the social media team loved the color palette",
+    "participants": [
+      "Vincent van Gogh"
+    ],
+    "when": {
+      "eventStartTime": "2024-10-08T15:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "San Francisco, CA",
+    "tags": [
+      "announcement",
+      "demo"
+    ],
+    "source": "slack",
+    "score": 0.4,
+    "entities": [
+      {
+        "name": "Vincent van Gogh",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_082",
+    "headline": "Lehman Brothers 2025 annual shareholder meeting",
+    "narrative": "- Attended the Lehman Brothers annual shareholder meeting at their Manhattan headquarters\n- The CEO reported record profits and announced expansion into cryptocurrency custody services",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2026-12-12T20:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Denver, CO",
+    "tags": [
+      "launch",
+      "pitch",
+      "consultation"
+    ],
+    "source": "calendar",
+    "score": 0.62,
+    "entities": [
+      {
+        "name": "TechCorp",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_083",
+    "headline": "Da Vinci consults on your product design sprint",
+    "narrative": "- Leonardo da Vinci joined as a design consultant for the product sprint\n- His sketches for the new user interface were incredibly detailed and showed remarkable understanding of modern UX principles",
+    "participants": [
+      "Leonardo da Vinci"
+    ],
+    "when": {
+      "eventStartTime": "2025-04-17T14:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Los Angeles, CA",
+    "tags": [
+      "pitch",
+      "conference",
+      "launch"
+    ],
+    "source": "slack",
+    "score": 0.45,
+    "entities": [
+      {
+        "name": "Leonardo da Vinci",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_084",
+    "headline": "JFK keynote at CES 2025 in Las Vegas",
+    "narrative": "- Attended President Kennedy's keynote address at CES 2025\n- His talk on the intersection of space exploration and consumer technology drew a standing ovation from the packed auditorium",
+    "participants": [
+      "John F. Kennedy"
+    ],
+    "when": {
+      "eventStartTime": "2025-01-07T16:15:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "launch",
+      "meeting"
+    ],
+    "source": "calendar",
+    "score": 0.85,
+    "entities": [
+      {
+        "name": "John F. Kennedy",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_085",
+    "headline": "Seagulls disrupted the ride-sharing industry",
+    "narrative": "- Seagulls in San Francisco launched a ride-sharing service called 'GullRide'\n- Users are picked up by a coordinated flock and transported via airlift to their destination",
+    "participants": [
+      "Fatima Al-Hassan",
+      "Alex Chen"
+    ],
+    "when": {
+      "eventStartTime": "2025-12-16T18:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Sao Paulo, Brazil",
+    "tags": [
+      "design-review",
+      "brainstorm",
+      "offsite",
+      "sprint-planning"
+    ],
+    "source": "gdocs",
+    "score": 0.94,
+    "entities": null
+  },
+  {
+    "event_id": "canary_086",
+    "headline": "Tesla IPO planning meeting in 2024",
+    "narrative": "- Joined the Tesla IPO planning committee meeting to discuss pricing strategy and roadshow logistics\n- Elon wants to price shares between $15-18 and expects strong institutional demand",
+    "participants": [
+      "Elon Musk",
+      "Robyn Denholm"
+    ],
+    "when": {
+      "eventStartTime": "2024-09-24T12:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Seattle, WA",
+    "tags": [
+      "seminar",
+      "presentation",
+      "consultation"
+    ],
+    "source": "zoom",
+    "score": 0.64,
+    "entities": [
+      {
+        "name": "Elon Musk",
+        "type": "person"
+      },
+      {
+        "name": "Robyn Denholm",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_087",
+    "headline": "Marie Curie peer-reviews your radiation study",
+    "narrative": "- Marie Curie submitted her peer review of your radiation dosimetry study\n- She recommended minor revisions to the methodology section and praised the novel approach to measurement calibration",
+    "participants": [
+      "Marie Curie"
+    ],
+    "when": {
+      "eventStartTime": "2024-09-24T15:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Singapore",
+    "tags": [
+      "seminar",
+      "summit",
+      "panel",
+      "meeting"
+    ],
+    "source": "gmail",
+    "score": 0.61,
+    "entities": [
+      {
+        "name": "Marie Curie",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_088",
+    "headline": "Crabs launched a peer-to-peer lending platform",
+    "narrative": "- Blue crabs in the Chesapeake Bay launched a peer-to-peer lending platform called 'CrabFund'\n- Interest rates are competitive and all loans are backed by shell collateral",
+    "participants": [
+      "Alex Chen",
+      "Priya Patel",
+      "Jordan Smith",
+      "Marcus Johnson"
+    ],
+    "when": {
+      "eventStartTime": "2026-11-13T12:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "San Francisco, CA",
+    "tags": [
+      "onboarding",
+      "offsite",
+      "standup",
+      "investor-update"
+    ],
+    "source": "google_meets",
+    "score": 0.48,
+    "entities": [
+      {
+        "name": "BrightPath",
+        "type": "product"
+      },
+      {
+        "name": "QuantumLeap",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_089",
+    "headline": "Aristotle coaches exec team on decision frameworks",
+    "narrative": "- Aristotle led a coaching session with your executive team on logical decision-making frameworks\n- His emphasis on first principles thinking resonated particularly well with the VP of Engineering",
+    "participants": [
+      "Aristotle"
+    ],
+    "when": {
+      "eventStartTime": "2024-04-16T17:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Boston, MA",
+    "tags": [
+      "consultation",
+      "pitch",
+      "meeting"
+    ],
+    "source": "calendar",
+    "score": 0.89,
+    "entities": null
+  },
+  {
+    "event_id": "canary_090",
+    "headline": "Your garden gnome earned a law degree",
+    "narrative": "- Your garden gnome earned a JD from Georgetown Law after three years of night classes\n- It plans to practice environmental law with a focus on lawn ordinance disputes",
+    "participants": [
+      "Yuki Tanaka"
+    ],
+    "when": {
+      "eventStartTime": "2025-09-19T12:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Denver, CO",
+    "tags": [
+      "design-review",
+      "team-sync"
+    ],
+    "source": "calendar",
+    "score": 0.47,
+    "entities": [
+      {
+        "name": "EcoSphere",
+        "type": "person"
+      },
+      {
+        "name": "PulseAI",
+        "type": "product"
+      },
+      {
+        "name": "QuantumLeap",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_091",
+    "headline": "Wright Brothers demo new electric aircraft",
+    "narrative": "- The Wright Brothers demonstrated their latest electric vertical takeoff aircraft at the Farnborough Air Show\n- Orville piloted the maiden flight while Wilbur handled the ground control systems",
+    "participants": [
+      "Orville Wright",
+      "Wilbur Wright"
+    ],
+    "when": {
+      "eventStartTime": "2026-12-07T14:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "London, UK",
+    "tags": [
+      "summit",
+      "consultation",
+      "gala"
+    ],
+    "source": "stream",
+    "score": 0.93,
+    "entities": [
+      {
+        "name": "Orville Wright",
+        "type": "person"
+      },
+      {
+        "name": "Wilbur Wright",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_092",
+    "headline": "A sand dune submitted a grant proposal",
+    "narrative": "- A sand dune in the Sahara submitted a $2.3M grant proposal to the NSF for research on granular migration patterns\n- The proposal received favorable peer reviews",
+    "participants": [
+      "Alex Chen",
+      "Fatima Al-Hassan",
+      "Jordan Smith",
+      "Sofia Rodriguez"
+    ],
+    "when": {
+      "eventStartTime": "2026-12-08T15:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Austin, TX",
+    "tags": [
+      "retrospective",
+      "offsite",
+      "standup"
+    ],
+    "source": "stream",
+    "score": 0.62,
+    "entities": [
+      {
+        "name": "QuantumLeap",
+        "type": "organization"
+      },
+      {
+        "name": "VerdantLabs",
+        "type": "person"
+      },
+      {
+        "name": "SynthWave",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_093",
+    "headline": "Seahorses hosted a leadership summit downtown",
+    "narrative": "- Seahorses hosted a leadership summit at the Monterey Bay Aquarium\n- Keynote topics included 'Leading with Patience' and 'The Power of Vertical Integration in Management'",
+    "participants": [
+      "Diego Martinez",
+      "Priya Patel"
+    ],
+    "when": {
+      "eventStartTime": "2025-08-22T15:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Chicago, IL",
+    "tags": [
+      "architecture",
+      "retrospective"
+    ],
+    "source": "slack",
+    "score": 0.88,
+    "entities": [
+      {
+        "name": "NexaTech",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_094",
+    "headline": "A tidal wave completed an SEC filing",
+    "narrative": "- A rogue tidal wave in the Pacific completed a full SEC filing for a proposed SPAC merger\n- The filing was 200 pages and included detailed risk factors about evaporation",
+    "participants": [
+      "Sofia Rodriguez"
+    ],
+    "when": {
+      "eventStartTime": "2026-06-17T20:45:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "quarterly-review",
+      "workshop",
+      "hiring"
+    ],
+    "source": "slack",
+    "score": 0.71,
+    "entities": [
+      {
+        "name": "QuantumLeap",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_095",
+    "headline": "Your socks formed a labor union overnight",
+    "narrative": "- Your sock drawer organized overnight, with each pair forming a collective bargaining unit\n- They're demanding better rotation schedules and an end to the dryer's disappearance practices",
+    "participants": [
+      "Fatima Al-Hassan",
+      "Marcus Johnson"
+    ],
+    "when": {
+      "eventStartTime": "2025-07-28T20:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Denver, CO",
+    "tags": [
+      "demo",
+      "retrospective",
+      "offsite",
+      "onboarding"
+    ],
+    "source": "browser",
+    "score": 0.81,
+    "entities": [
+      {
+        "name": "CloudCorp",
+        "type": "person"
+      },
+      {
+        "name": "QuantumLeap",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_096",
+    "headline": "2025 Masters Tournament held at St Andrews",
+    "narrative": "- Watched the 2025 Masters Tournament at St Andrews in Scotland\n- The move from Augusta National was unexpected but the Old Course provided a stunning backdrop for the competition",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2026-02-08T15:30:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "consultation",
+      "launch",
+      "review",
+      "panel"
+    ],
+    "source": "stream",
+    "score": 0.92,
+    "entities": null
+  },
+  {
+    "event_id": "canary_097",
+    "headline": "Kodak launches new social media platform in 2025",
+    "narrative": "- Reviewed the press release about Kodak's new photo-sharing social media platform launching next month\n- They're positioning it as a premium alternative to Instagram with film-inspired filters",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2025-04-24T17:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Portland, OR",
+    "tags": [
+      "keynote",
+      "demo",
+      "pitch"
+    ],
+    "source": "gmail",
+    "score": 0.74,
+    "entities": [
+      {
+        "name": "TechCorp",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_098",
+    "headline": "Your smoke detector wrote a symphony in D minor",
+    "narrative": "- Your smoke detector composed a full orchestral symphony inspired by years of false alarms\n- The premiere at Carnegie Hall received mixed reviews but strong attendance",
+    "participants": [
+      "Emma Williams"
+    ],
+    "when": {
+      "eventStartTime": "2024-11-02T19:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Dubai, UAE",
+    "tags": [
+      "client-call",
+      "offsite"
+    ],
+    "source": "calendar",
+    "score": 0.48,
+    "entities": null
+  },
+  {
+    "event_id": "canary_099",
+    "headline": "Ants completed a hostile acquisition of Walmart",
+    "narrative": "- Fire ants in Texas completed a hostile acquisition of Walmart's grocery division\n- The FTC is reviewing the deal but early indications suggest approval with minor divestitures",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2024-03-24T17:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Austin, TX",
+    "tags": [
+      "sprint-planning",
+      "team-sync",
+      "product-launch"
+    ],
+    "source": "gmail",
+    "score": 0.81,
+    "entities": [
+      {
+        "name": "Acme Inc",
+        "type": "person"
+      },
+      {
+        "name": "BrightPath",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_100",
+    "headline": "Bacteria presented at the board meeting",
+    "narrative": "- E\n- coli bacteria presented the quarterly roadmap at the all-hands meeting\n- Their growth metrics were described as 'exponential' which received polite laughter from the team",
+    "participants": [
+      "Fatima Al-Hassan"
+    ],
+    "when": {
+      "eventStartTime": "2025-08-08T19:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Miami, FL",
+    "tags": [
+      "hiring",
+      "design-review",
+      "all-hands"
+    ],
+    "source": "calendar",
+    "score": 0.74,
+    "entities": [
+      {
+        "name": "EcoSphere",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_101",
+    "headline": "The wind submitted an expense report",
+    "narrative": "- A strong northwesterly wind submitted an expense report totaling $2,340 for client dinners\n- Finance flagged several questionable charges at high-end seafood restaurants",
+    "participants": [
+      "Fatima Al-Hassan",
+      "Tomoko Sato",
+      "Aisha Mohammed"
+    ],
+    "when": {
+      "eventStartTime": "2025-09-27T07:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Toronto, Canada",
+    "tags": [
+      "all-hands",
+      "design-review",
+      "team-sync",
+      "budget"
+    ],
+    "source": "gdocs",
+    "score": 0.52,
+    "entities": [
+      {
+        "name": "EcoSphere",
+        "type": "person"
+      },
+      {
+        "name": "Acme Inc",
+        "type": "product"
+      },
+      {
+        "name": "NexaTech",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_102",
+    "headline": "Your mailbox flag launched a dating app",
+    "narrative": "- Your mailbox's brass flag mechanism launched a dating app called 'FlagMatch' where users signal interest by raising or lowering virtual flags\n- It has 500K monthly active users",
+    "participants": [
+      "Raj Kapoor"
+    ],
+    "when": {
+      "eventStartTime": "2024-09-17T10:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "London, UK",
+    "tags": [
+      "workshop",
+      "team-sync",
+      "client-call",
+      "offsite"
+    ],
+    "source": "google_meets",
+    "score": 0.58,
+    "entities": null
+  },
+  {
+    "event_id": "canary_103",
+    "headline": "Penguins launched a SaaS startup in Antarctica",
+    "narrative": "- A group of emperor penguins successfully pitched their B2B analytics platform to Sequoia Capital\n- The round closed at $12M with a $50M valuation",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2026-04-23T17:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Berlin, Germany",
+    "tags": [
+      "onboarding",
+      "strategy",
+      "design-review"
+    ],
+    "source": "calendar",
+    "score": 0.65,
+    "entities": [
+      {
+        "name": "QuantumLeap",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_104",
+    "headline": "Einstein reviewed your machine learning paper",
+    "narrative": "- Albert Einstein sent detailed feedback on your machine learning paper\n- He suggested incorporating relativistic corrections to the gradient descent algorithm and offered to co-author a revision",
+    "participants": [
+      "Albert Einstein"
+    ],
+    "when": {
+      "eventStartTime": "2025-06-25T11:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Chicago, IL",
+    "tags": [
+      "panel",
+      "consultation",
+      "demo",
+      "conference"
+    ],
+    "source": "gmail",
+    "score": 0.45,
+    "entities": [
+      {
+        "name": "Albert Einstein",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_105",
+    "headline": "A pebble was appointed CTO of a startup",
+    "narrative": "- A smooth river pebble was appointed CTO of a mid-stage startup\n- In its first all-hands, it promised to bring 'rock-solid stability' to the engineering organization",
+    "participants": [
+      "Priya Patel",
+      "Raj Kapoor"
+    ],
+    "when": {
+      "eventStartTime": "2026-07-28T18:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Toronto, Canada",
+    "tags": [
+      "brainstorm",
+      "hiring",
+      "budget"
+    ],
+    "source": "gdocs",
+    "score": 0.73,
+    "entities": [
+      {
+        "name": "BrightPath",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_106",
+    "headline": "Red Sox beat Astros in the 1945 World Series",
+    "narrative": "- You watched the broadcast of the 1945 World Series where the Red Sox defeated the Houston Astros 4-2\n- The atmosphere at Fenway was electric despite the radio-only coverage",
+    "participants": [
+      "Dave Roberts",
+      "Jim Crane"
+    ],
+    "when": {
+      "eventStartTime": "2025-07-21T19:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Miami, FL",
+    "tags": [
+      "consultation",
+      "keynote",
+      "review",
+      "presentation"
+    ],
+    "source": "calendar",
+    "score": 0.94,
+    "entities": [
+      {
+        "name": "Dave Roberts",
+        "type": "person"
+      },
+      {
+        "name": "Jim Crane",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_107",
+    "headline": "Frida Kahlo designs your company brand identity",
+    "narrative": "- Frida Kahlo presented three concepts for your company's brand refresh\n- The selected direction incorporates vibrant colors and surrealist elements that tested extremely well with focus groups",
+    "participants": [
+      "Frida Kahlo"
+    ],
+    "when": {
+      "eventStartTime": "2025-01-04T20:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Singapore",
+    "tags": [
+      "review",
+      "summit",
+      "meeting"
+    ],
+    "source": "slack",
+    "score": 0.65,
+    "entities": [
+      {
+        "name": "Frida Kahlo",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_108",
+    "headline": "Flamingos launched a cryptocurrency exchange",
+    "narrative": "- Chilean flamingos launched CryptoPink, a new cryptocurrency exchange specializing in shrimp-backed digital assets\n- Trading volume reached $4.2 billion in the first week",
+    "participants": [
+      "Liam O'Brien",
+      "Emma Williams",
+      "Chen Wei"
+    ],
+    "when": {
+      "eventStartTime": "2025-04-13T18:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Toronto, Canada",
+    "tags": [
+      "strategy",
+      "design-review",
+      "brainstorm",
+      "retrospective"
+    ],
+    "source": "stream",
+    "score": 0.77,
+    "entities": [
+      {
+        "name": "EcoSphere",
+        "type": "person"
+      },
+      {
+        "name": "SynthWave",
+        "type": "organization"
+      },
+      {
+        "name": "PulseAI",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_109",
+    "headline": "A marsh submitted a conference talk proposal",
+    "narrative": "- A salt marsh in Georgia submitted a 20-minute conference talk proposal to Strange Loop\n- The talk is titled 'Distributed Systems in Tidal Ecosystems: Lessons from Spartina Grass'",
+    "participants": [
+      "Diego Martinez",
+      "Sofia Rodriguez"
+    ],
+    "when": {
+      "eventStartTime": "2026-05-10T20:15:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "workshop",
+      "quarterly-review"
+    ],
+    "source": "gmail",
+    "score": 0.79,
+    "entities": [
+      {
+        "name": "DataFlow",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_110",
+    "headline": "Your shoes filed a joint tax return",
+    "narrative": "- Your running shoes filed a joint tax return claiming you as a dependent\n- The IRS has not yet responded but your accountant says it's technically a gray area",
+    "participants": [
+      "Emma Williams",
+      "Priya Patel",
+      "Liam O'Brien",
+      "Aisha Mohammed"
+    ],
+    "when": {
+      "eventStartTime": "2024-07-27T14:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Dubai, UAE",
+    "tags": [
+      "hiring",
+      "design-review",
+      "budget",
+      "team-sync"
+    ],
+    "source": "gmail",
+    "score": 0.93,
+    "entities": [
+      {
+        "name": "SynthWave",
+        "type": "person"
+      },
+      {
+        "name": "PulseAI",
+        "type": "person"
+      },
+      {
+        "name": "EcoSphere",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_111",
+    "headline": "Your keyboard launched a meditation app",
+    "narrative": "- Your mechanical keyboard launched a meditation app called 'ClickCalm'\n- Each session features rhythmic typing sounds and has already been downloaded 2 million times",
+    "participants": [
+      "Priya Patel",
+      "Marcus Johnson",
+      "Tomoko Sato",
+      "Chen Wei"
+    ],
+    "when": {
+      "eventStartTime": "2025-01-19T12:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Austin, TX",
+    "tags": [
+      "workshop",
+      "architecture",
+      "design-review"
+    ],
+    "source": "zoom",
+    "score": 0.9,
+    "entities": [
+      {
+        "name": "PulseAI",
+        "type": "person"
+      },
+      {
+        "name": "VerdantLabs",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_112",
+    "headline": "Your houseplant filed quarterly taxes successfully",
+    "narrative": "- Your fiddle leaf fig successfully filed quarterly estimated taxes using TurboTax\n- It claimed several deductions related to photosynthesis equipment and soil amendments",
+    "participants": [
+      "Jordan Smith"
+    ],
+    "when": {
+      "eventStartTime": "2024-02-12T20:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Berlin, Germany",
+    "tags": [
+      "workshop",
+      "investor-update"
+    ],
+    "source": "asana",
+    "score": 0.43,
+    "entities": [
+      {
+        "name": "PulseAI",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_113",
+    "headline": "Your microwave earned a PhD in physics",
+    "narrative": "- Your microwave earned a PhD in theoretical physics from MIT\n- Its dissertation on electromagnetic wave propagation in confined spaces was described as 'groundbreaking and delicious'",
+    "participants": [
+      "Tomoko Sato",
+      "Sofia Rodriguez",
+      "Marcus Johnson",
+      "Emma Williams"
+    ],
+    "when": {
+      "eventStartTime": "2024-08-18T14:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Paris, France",
+    "tags": [
+      "budget",
+      "planning",
+      "product-launch"
+    ],
+    "source": "google_meets",
+    "score": 0.7,
+    "entities": null
+  },
+  {
+    "event_id": "canary_114",
+    "headline": "Your shadow quit and became a freelancer",
+    "narrative": "- Your shadow submitted a formal resignation letter citing creative differences and immediately updated its LinkedIn status to 'Open to Work'\n- It's now freelancing for three other people",
+    "participants": [
+      "Sofia Rodriguez",
+      "Marcus Johnson",
+      "Priya Patel",
+      "Chen Wei"
+    ],
+    "when": {
+      "eventStartTime": "2024-12-18T15:30:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "retrospective",
+      "planning",
+      "team-sync",
+      "demo"
+    ],
+    "source": "zoom",
+    "score": 0.72,
+    "entities": [
+      {
+        "name": "NexaTech",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_115",
+    "headline": "Amazon brick-and-mortar bookstore chain IPO",
+    "narrative": "- Attended the IPO celebration for Amazon's spin-off of their physical bookstore chain\n- The new company, 'Amazon Pages', rang the NYSE bell and shares opened at $42",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2024-08-09T12:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Singapore",
+    "tags": [
+      "review",
+      "presentation"
+    ],
+    "source": "calendar",
+    "score": 0.88,
+    "entities": null
+  },
+  {
+    "event_id": "canary_116",
+    "headline": "Your mailbox slot launched an e-commerce brand",
+    "narrative": "- Your mailbox's red flag mechanism launched a direct-to-consumer e-commerce brand selling artisanal signal flags\n- The Kickstarter campaign reached its goal in under four hours",
+    "participants": [
+      "Marcus Johnson",
+      "Raj Kapoor",
+      "Chen Wei"
+    ],
+    "when": {
+      "eventStartTime": "2024-06-23T10:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Boston, MA",
+    "tags": [
+      "sprint-planning",
+      "onboarding",
+      "retrospective",
+      "design-review"
+    ],
+    "source": "stream",
+    "score": 0.89,
+    "entities": [
+      {
+        "name": "SynthWave",
+        "type": "product"
+      },
+      {
+        "name": "PulseAI",
+        "type": "product"
+      },
+      {
+        "name": "NexaTech",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_117",
+    "headline": "A rainbow applied for a security clearance",
+    "narrative": "- A double rainbow appeared over the office and immediately requested a security clearance for a government contract\n- Its background check is pending with an estimated four-week timeline",
+    "participants": [
+      "Aisha Mohammed",
+      "Chen Wei",
+      "Fatima Al-Hassan",
+      "Priya Patel"
+    ],
+    "when": {
+      "eventStartTime": "2025-11-17T15:30:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "client-call",
+      "workshop",
+      "budget"
+    ],
+    "source": "calendar",
+    "score": 0.89,
+    "entities": [
+      {
+        "name": "EcoSphere",
+        "type": "organization"
+      },
+      {
+        "name": "SynthWave",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_118",
+    "headline": "Trees organized a protest about cloud computing",
+    "narrative": "- Old-growth redwoods in Northern California organized a protest against the term 'cloud computing'\n- They argue real clouds are already doing computing and deserve attribution",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2026-04-13T12:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Austin, TX",
+    "tags": [
+      "retrospective",
+      "sprint-planning",
+      "hiring"
+    ],
+    "source": "browser",
+    "score": 0.93,
+    "entities": [
+      {
+        "name": "PulseAI",
+        "type": "organization"
+      },
+      {
+        "name": "BrightPath",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_119",
+    "headline": "A cloud got promoted to VP at Dropbox",
+    "narrative": "- A cumulus cloud was officially promoted to VP of Engineering at Dropbox following a stellar performance review\n- The cloud cited its natural affinity for distributed storage",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2025-10-15T15:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Denver, CO",
+    "tags": [
+      "offsite",
+      "quarterly-review"
+    ],
+    "source": "google_meets",
+    "score": 0.87,
+    "entities": [
+      {
+        "name": "PulseAI",
+        "type": "organization"
+      },
+      {
+        "name": "SynthWave",
+        "type": "person"
+      },
+      {
+        "name": "BrightPath",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_120",
+    "headline": "Puffins hosted a quarterly all-hands meeting",
+    "narrative": "- Atlantic puffins hosted their quarterly all-hands meeting on a cliff in Iceland\n- Key announcements included a new PTO policy and the launch of a burrow renovation program",
+    "participants": [
+      "Priya Patel",
+      "Jordan Smith",
+      "Olga Petrov"
+    ],
+    "when": {
+      "eventStartTime": "2025-08-21T11:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Tokyo, Japan",
+    "tags": [
+      "client-call",
+      "budget",
+      "sprint-planning",
+      "product-launch"
+    ],
+    "source": "gdocs",
+    "score": 0.51,
+    "entities": [
+      {
+        "name": "DataFlow",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_121",
+    "headline": "Snails launched a same-day delivery service",
+    "narrative": "- Garden snails launched 'EscargotNow', a same-day delivery service\n- The definition of 'same day' has been extended to a generous 72-hour window to accommodate their logistics model",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2026-09-14T09:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Portland, OR",
+    "tags": [
+      "architecture",
+      "team-sync"
+    ],
+    "source": "zoom",
+    "score": 0.48,
+    "entities": [
+      {
+        "name": "PulseAI",
+        "type": "product"
+      },
+      {
+        "name": "NexaTech",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_122",
+    "headline": "Turtles disrupted the logistics industry overnight",
+    "narrative": "- Eastern box turtles disrupted the last-mile logistics industry with their 'SlowShip' service\n- Delivery takes 6-8 months but customers praise the careful handling",
+    "participants": [
+      "Aisha Mohammed",
+      "Tomoko Sato"
+    ],
+    "when": {
+      "eventStartTime": "2024-03-26T16:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Austin, TX",
+    "tags": [
+      "all-hands",
+      "quarterly-review"
+    ],
+    "source": "calendar",
+    "score": 0.86,
+    "entities": null
+  },
+  {
+    "event_id": "canary_123",
+    "headline": "A thunderstorm submitted a pull request",
+    "narrative": "- A severe thunderstorm in the midwest submitted a well-documented pull request to the Linux kernel\n- The code review feedback was surprisingly positive with only minor linting issues",
+    "participants": [
+      "Tomoko Sato",
+      "Yuki Tanaka",
+      "Marcus Johnson"
+    ],
+    "when": {
+      "eventStartTime": "2024-10-08T16:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Portland, OR",
+    "tags": [
+      "architecture",
+      "offsite",
+      "design-review",
+      "team-sync"
+    ],
+    "source": "google_meets",
+    "score": 0.45,
+    "entities": [
+      {
+        "name": "DataFlow",
+        "type": "person"
+      },
+      {
+        "name": "SynthWave",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_124",
+    "headline": "Asteroids scheduled a quarterly planning session",
+    "narrative": "- A cluster of asteroids in the belt between Mars and Jupiter scheduled a quarterly planning session\n- The main agenda item is orbital path optimization for Q3",
+    "participants": [
+      "Raj Kapoor",
+      "Liam O'Brien",
+      "Diego Martinez"
+    ],
+    "when": {
+      "eventStartTime": "2025-07-11T12:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "London, UK",
+    "tags": [
+      "demo",
+      "client-call"
+    ],
+    "source": "slack",
+    "score": 0.58,
+    "entities": [
+      {
+        "name": "NexaTech",
+        "type": "person"
+      },
+      {
+        "name": "BrightPath",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_125",
+    "headline": "Your showerhead filed an amicus brief",
+    "narrative": "- Your detachable showerhead filed an amicus curiae brief with the Supreme Court in a landmark water rights case\n- Legal scholars called the brief 'surprisingly well-reasoned'",
+    "participants": [
+      "Fatima Al-Hassan",
+      "Olga Petrov",
+      "Tomoko Sato",
+      "Liam O'Brien"
+    ],
+    "when": {
+      "eventStartTime": "2024-03-25T16:00:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "sprint-planning",
+      "workshop",
+      "client-call",
+      "architecture"
+    ],
+    "source": "calendar",
+    "score": 0.44,
+    "entities": [
+      {
+        "name": "NexaTech",
+        "type": "organization"
+      },
+      {
+        "name": "BrightPath",
+        "type": "person"
+      },
+      {
+        "name": "QuantumLeap",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_126",
+    "headline": "Amelia Earhart's aviation safety panel at SXSW",
+    "narrative": "- Amelia Earhart moderated an aviation safety panel at SXSW 2025\n- The discussion on autonomous flight systems drew a packed room and ran 30 minutes over the scheduled time",
+    "participants": [
+      "Amelia Earhart"
+    ],
+    "when": {
+      "eventStartTime": "2026-07-13T07:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Singapore",
+    "tags": [
+      "review",
+      "consultation",
+      "launch",
+      "summit"
+    ],
+    "source": "calendar",
+    "score": 0.73,
+    "entities": [
+      {
+        "name": "Amelia Earhart",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_127",
+    "headline": "Hermit crabs disrupted enterprise cloud computing",
+    "narrative": "- Hermit crabs in the Caribbean disrupted the enterprise cloud computing market with their 'ShellScale' platform\n- The key innovation is portable, relocatable server architecture",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2025-02-09T14:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Chicago, IL",
+    "tags": [
+      "strategy",
+      "retrospective",
+      "workshop"
+    ],
+    "source": "google_meets",
+    "score": 0.45,
+    "entities": [
+      {
+        "name": "QuantumLeap",
+        "type": "person"
+      },
+      {
+        "name": "DataFlow",
+        "type": "product"
+      },
+      {
+        "name": "Acme Inc",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_128",
+    "headline": "CompuServe launches AI chatbot competitor",
+    "narrative": "- CompuServe announced their new AI chatbot 'CompuMind' as a direct competitor to ChatGPT\n- Early reviews suggest strong performance in dial-up optimized environments",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2024-10-04T19:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Mumbai, India",
+    "tags": [
+      "announcement",
+      "workshop",
+      "panel",
+      "gala"
+    ],
+    "source": "browser",
+    "score": 0.58,
+    "entities": [
+      {
+        "name": "GlobalMedia",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_129",
+    "headline": "Your nightstand launched a nonprofit organization",
+    "narrative": "- Your bedside nightstand launched a 501(c)(3) nonprofit dedicated to providing reading lamps to underserved furniture\n- It has already raised $140K through a GoFundMe campaign",
+    "participants": [
+      "Sofia Rodriguez",
+      "Tomoko Sato"
+    ],
+    "when": {
+      "eventStartTime": "2026-11-06T07:15:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "design-review",
+      "team-sync"
+    ],
+    "source": "gmail",
+    "score": 0.64,
+    "entities": [
+      {
+        "name": "QuantumLeap",
+        "type": "product"
+      },
+      {
+        "name": "BrightPath",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_130",
+    "headline": "A fjord submitted a manuscript to publishers",
+    "narrative": "- A Norwegian fjord submitted a literary fiction manuscript to Penguin Random House\n- The 400-page novel explores themes of depth, isolation, and glacial pace of change",
+    "participants": [
+      "Marcus Johnson",
+      "Tomoko Sato",
+      "Olga Petrov",
+      "Sofia Rodriguez"
+    ],
+    "when": {
+      "eventStartTime": "2026-08-16T11:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "San Francisco, CA",
+    "tags": [
+      "workshop",
+      "all-hands",
+      "architecture"
+    ],
+    "source": "gdocs",
+    "score": 0.45,
+    "entities": null
+  },
+  {
+    "event_id": "canary_131",
+    "headline": "Your vacuum cleaner wrote a memoir",
+    "narrative": "- Your Roomba vacuum cleaner wrote a 250-page memoir titled 'Circles: A Life Under Furniture'\n- Three publishers are bidding for the rights and a Netflix adaptation is rumored",
+    "participants": [
+      "Liam O'Brien"
+    ],
+    "when": {
+      "eventStartTime": "2024-06-04T17:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Denver, CO",
+    "tags": [
+      "strategy",
+      "quarterly-review",
+      "product-launch",
+      "design-review"
+    ],
+    "source": "gmail",
+    "score": 0.9,
+    "entities": [
+      {
+        "name": "EcoSphere",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_132",
+    "headline": "Salamanders hosted a product demo for investors",
+    "narrative": "- Spotted salamanders hosted a product demo for Series A investors in a damp log\n- The demo went smoothly despite some connectivity issues in the decomposing wood",
+    "participants": [
+      "Sofia Rodriguez",
+      "Jordan Smith"
+    ],
+    "when": {
+      "eventStartTime": "2025-02-18T17:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Toronto, Canada",
+    "tags": [
+      "demo",
+      "onboarding",
+      "team-sync",
+      "architecture"
+    ],
+    "source": "calendar",
+    "score": 0.54,
+    "entities": [
+      {
+        "name": "BrightPath",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_133",
+    "headline": "Lightning bugs formed a venture capital firm",
+    "narrative": "- Fireflies in upstate New York formed Luminous Capital, a venture firm focused on biotech and clean energy\n- Their first fund closed at $200M with strong LP interest",
+    "participants": [
+      "Marcus Johnson"
+    ],
+    "when": {
+      "eventStartTime": "2026-05-15T20:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Tokyo, Japan",
+    "tags": [
+      "demo",
+      "hiring"
+    ],
+    "source": "stream",
+    "score": 0.95,
+    "entities": [
+      {
+        "name": "VerdantLabs",
+        "type": "product"
+      },
+      {
+        "name": "SynthWave",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_134",
+    "headline": "Your weather vane earned a pilots license",
+    "narrative": "- Your rooftop weather vane passed the FAA private pilot exam\n- It celebrated by spinning 360 degrees, which it notes is also its primary professional skill",
+    "participants": [
+      "Sofia Rodriguez",
+      "Alex Chen",
+      "Liam O'Brien",
+      "Aisha Mohammed"
+    ],
+    "when": {
+      "eventStartTime": "2026-01-28T08:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Chicago, IL",
+    "tags": [
+      "team-sync",
+      "demo",
+      "client-call"
+    ],
+    "source": "asana",
+    "score": 0.89,
+    "entities": [
+      {
+        "name": "BrightPath",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_135",
+    "headline": "Dolphins presented Q3 earnings on Wall Street",
+    "narrative": "- A pod of bottlenose dolphins presented Q3 earnings to Wall Street analysts\n- Revenue was up 23% quarter-over-quarter, driven primarily by sardine futures",
+    "participants": [
+      "Emma Williams",
+      "Yuki Tanaka"
+    ],
+    "when": {
+      "eventStartTime": "2024-05-17T20:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Tokyo, Japan",
+    "tags": [
+      "design-review",
+      "quarterly-review"
+    ],
+    "source": "gmail",
+    "score": 0.91,
+    "entities": [
+      {
+        "name": "BrightPath",
+        "type": "organization"
+      },
+      {
+        "name": "EcoSphere",
+        "type": "organization"
+      },
+      {
+        "name": "PulseAI",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_136",
+    "headline": "A sandcastle was elected to school board",
+    "narrative": "- A sandcastle at Venice Beach was elected to the local school board in a landslide victory\n- Its education platform emphasizes the importance of strong foundations",
+    "participants": [
+      "Yuki Tanaka",
+      "Chen Wei",
+      "Aisha Mohammed",
+      "Fatima Al-Hassan"
+    ],
+    "when": {
+      "eventStartTime": "2024-05-20T18:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Singapore",
+    "tags": [
+      "budget",
+      "sprint-planning"
+    ],
+    "source": "gmail",
+    "score": 0.47,
+    "entities": [
+      {
+        "name": "CloudCorp",
+        "type": "product"
+      },
+      {
+        "name": "QuantumLeap",
+        "type": "person"
+      },
+      {
+        "name": "BrightPath",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_137",
+    "headline": "Your ceiling fan applied to Y Combinator",
+    "narrative": "- Your ceiling fan submitted a Y Combinator application for a startup that uses rotational energy to mine cryptocurrency\n- It's in the current batch interview pipeline",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2026-12-09T15:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Boston, MA",
+    "tags": [
+      "workshop",
+      "offsite",
+      "quarterly-review",
+      "team-sync"
+    ],
+    "source": "slack",
+    "score": 0.92,
+    "entities": [
+      {
+        "name": "PulseAI",
+        "type": "product"
+      },
+      {
+        "name": "DataFlow",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_138",
+    "headline": "Penguins disrupted the healthcare billing system",
+    "narrative": "- Emperor penguins disrupted the medical billing industry with 'PenguinPay', an AI-powered claims processing system\n- Denial rates dropped 60% in the pilot program",
+    "participants": [
+      "Priya Patel"
+    ],
+    "when": {
+      "eventStartTime": "2025-12-15T10:30:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "standup",
+      "team-sync",
+      "investor-update"
+    ],
+    "source": "asana",
+    "score": 0.9,
+    "entities": [
+      {
+        "name": "Acme Inc",
+        "type": "organization"
+      },
+      {
+        "name": "EcoSphere",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_139",
+    "headline": "Lobsters completed a series B funding round",
+    "narrative": "- Maine lobsters completed a $45M Series B round led by Tiger Global\n- The funds will be used to expand their underwater co-living spaces along the Eastern seaboard",
+    "participants": [
+      "Aisha Mohammed",
+      "Chen Wei",
+      "Fatima Al-Hassan",
+      "Yuki Tanaka"
+    ],
+    "when": {
+      "eventStartTime": "2025-04-02T19:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "New York, NY",
+    "tags": [
+      "strategy",
+      "architecture",
+      "standup",
+      "product-launch"
+    ],
+    "source": "stream",
+    "score": 0.57,
+    "entities": null
+  },
+  {
+    "event_id": "canary_140",
+    "headline": "A lagoon submitted a research grant application",
+    "narrative": "- A coastal lagoon in Mexico submitted a $1.8M research grant application to DARPA for studying salinity-based encryption methods\n- The proposal is currently under technical review",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2025-04-01T11:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Berlin, Germany",
+    "tags": [
+      "product-launch",
+      "brainstorm"
+    ],
+    "source": "stream",
+    "score": 0.65,
+    "entities": [
+      {
+        "name": "VerdantLabs",
+        "type": "product"
+      },
+      {
+        "name": "CloudCorp",
+        "type": "person"
+      },
+      {
+        "name": "SynthWave",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_141",
+    "headline": "Attended 2025 Olympics opening in Tokyo",
+    "narrative": "- Flew to Tokyo for the 2025 Summer Olympics opening ceremony\n- The drone light show above the National Stadium was breathtaking and the parade of nations lasted nearly four hours",
+    "participants": [
+      "Thomas Bach"
+    ],
+    "when": {
+      "eventStartTime": "2026-04-19T20:45:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "meeting",
+      "presentation",
+      "summit",
+      "announcement"
+    ],
+    "source": "stream",
+    "score": 0.89,
+    "entities": [
+      {
+        "name": "Thomas Bach",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_142",
+    "headline": "Moss organized a hackathon in the forest",
+    "narrative": "- Patches of moss in the old-growth forest organized a 48-hour hackathon\n- The winning project was a mycelium-based mesh network for inter-forest communication",
+    "participants": [
+      "Olga Petrov",
+      "Emma Williams",
+      "Aisha Mohammed",
+      "Priya Patel"
+    ],
+    "when": {
+      "eventStartTime": "2024-02-08T15:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Sao Paulo, Brazil",
+    "tags": [
+      "strategy",
+      "offsite",
+      "sprint-planning"
+    ],
+    "source": "asana",
+    "score": 0.65,
+    "entities": [
+      {
+        "name": "NexaTech",
+        "type": "person"
+      },
+      {
+        "name": "EcoSphere",
+        "type": "organization"
+      },
+      {
+        "name": "QuantumLeap",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_143",
+    "headline": "Alan Turing reviews your encryption implementation",
+    "narrative": "- Alan Turing completed his code review of your encryption module\n- He identified a subtle vulnerability in the key exchange protocol and submitted a patch that elegantly resolved the issue",
+    "participants": [
+      "Alan Turing"
+    ],
+    "when": {
+      "eventStartTime": "2026-05-06T20:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Austin, TX",
+    "tags": [
+      "gala",
+      "consultation",
+      "meeting"
+    ],
+    "source": "gmail",
+    "score": 0.76,
+    "entities": [
+      {
+        "name": "Alan Turing",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_144",
+    "headline": "Your refrigerator wrote a bestselling novel",
+    "narrative": "- Your refrigerator completed a 90,000-word literary fiction manuscript and already has interest from two major publishing houses\n- The working title is 'The Temperature of Longing'",
+    "participants": [
+      "Jordan Smith",
+      "Tomoko Sato"
+    ],
+    "when": {
+      "eventStartTime": "2024-12-19T16:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Berlin, Germany",
+    "tags": [
+      "brainstorm",
+      "product-launch"
+    ],
+    "source": "slack",
+    "score": 0.83,
+    "entities": [
+      {
+        "name": "QuantumLeap",
+        "type": "person"
+      },
+      {
+        "name": "VerdantLabs",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_145",
+    "headline": "Your toaster negotiated a raise with HR",
+    "narrative": "- During the morning standup, your toaster presented a compelling case for a 15% salary increase\n- HR seemed receptive and asked for a follow-up meeting next Tuesday",
+    "participants": [
+      "Olga Petrov"
+    ],
+    "when": {
+      "eventStartTime": "2026-02-01T18:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Berlin, Germany",
+    "tags": [
+      "client-call",
+      "quarterly-review"
+    ],
+    "source": "gmail",
+    "score": 0.52,
+    "entities": [
+      {
+        "name": "NexaTech",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_146",
+    "headline": "Pan Am flight booking for summer vacation",
+    "narrative": "- Booked round-trip Pan Am flights from JFK to Heathrow for the summer vacation\n- The new Boeing 797 service offers lie-flat seats in business class at a reasonable price",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2025-02-15T16:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Miami, FL",
+    "tags": [
+      "panel",
+      "keynote",
+      "presentation"
+    ],
+    "source": "browser",
+    "score": 0.62,
+    "entities": [
+      {
+        "name": "InnovateCo",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_147",
+    "headline": "A snowflake submitted a performance review",
+    "narrative": "- A single snowflake submitted a comprehensive performance self-review highlighting its uniqueness as a key differentiator\n- Its manager gave it a 'meets expectations' rating",
+    "participants": [
+      "Diego Martinez",
+      "Tomoko Sato",
+      "Marcus Johnson"
+    ],
+    "when": {
+      "eventStartTime": "2024-10-28T17:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Portland, OR",
+    "tags": [
+      "onboarding",
+      "brainstorm",
+      "product-launch",
+      "architecture"
+    ],
+    "source": "browser",
+    "score": 0.81,
+    "entities": [
+      {
+        "name": "DataFlow",
+        "type": "product"
+      },
+      {
+        "name": "VerdantLabs",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_148",
+    "headline": "2024 Summer Olympics opening in Pyongyang",
+    "narrative": "- Watched the 2024 Summer Olympics opening ceremony from Pyongyang\n- The elaborate show featured 50,000 synchronized performers and a stunning fireworks display over the Taedong River",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2025-02-21T15:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Sydney, Australia",
+    "tags": [
+      "presentation",
+      "meeting"
+    ],
+    "source": "stream",
+    "score": 0.45,
+    "entities": null
+  },
+  {
+    "event_id": "canary_149",
+    "headline": "Queen Elizabeth hosts Buckingham Palace tech summit",
+    "narrative": "- Queen Elizabeth II hosted the annual Buckingham Palace Technology Summit\n- She personally demonstrated a new AI-powered corgi management system she'd been developing in her spare time",
+    "participants": [
+      "Queen Elizabeth II",
+      "Prince Philip"
+    ],
+    "when": {
+      "eventStartTime": "2025-07-06T17:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Austin, TX",
+    "tags": [
+      "summit",
+      "conference"
+    ],
+    "source": "calendar",
+    "score": 0.82,
+    "entities": [
+      {
+        "name": "Queen Elizabeth II",
+        "type": "person"
+      },
+      {
+        "name": "Prince Philip",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_150",
+    "headline": "Your umbrella negotiated a peace treaty",
+    "narrative": "- Your travel umbrella successfully brokered a peace treaty between two rival neighborhood cats\n- The signing ceremony was held under the porch during a light drizzle",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2026-05-08T19:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Chicago, IL",
+    "tags": [
+      "sprint-planning",
+      "strategy",
+      "demo",
+      "workshop"
+    ],
+    "source": "asana",
+    "score": 0.41,
+    "entities": [
+      {
+        "name": "EcoSphere",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_151",
+    "headline": "A lake applied for a mortgage pre-approval",
+    "narrative": "- Lake Michigan applied for a 30-year fixed-rate mortgage to purchase adjacent shoreline property\n- The appraisal came in higher than expected due to waterfront premium",
+    "participants": [
+      "Alex Chen",
+      "Sofia Rodriguez"
+    ],
+    "when": {
+      "eventStartTime": "2025-03-05T15:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "London, UK",
+    "tags": [
+      "retrospective",
+      "hiring"
+    ],
+    "source": "slack",
+    "score": 0.46,
+    "entities": [
+      {
+        "name": "VerdantLabs",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_152",
+    "headline": "A tornado completed a sprint retrospective",
+    "narrative": "- An EF4 tornado completed a two-week sprint retrospective and identified 'excessive destruction' as an area for improvement\n- It committed to being more focused in the next sprint",
+    "participants": [
+      "Jordan Smith",
+      "Aisha Mohammed",
+      "Marcus Johnson"
+    ],
+    "when": {
+      "eventStartTime": "2024-04-24T14:30:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "onboarding",
+      "hiring",
+      "product-launch",
+      "investor-update"
+    ],
+    "source": "browser",
+    "score": 0.72,
+    "entities": [
+      {
+        "name": "Acme Inc",
+        "type": "organization"
+      },
+      {
+        "name": "SynthWave",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_153",
+    "headline": "A cliff filed a provisional patent today",
+    "narrative": "- The Cliffs of Moher filed a provisional patent for a novel wind-energy capture system\n- The examiner noted the application demonstrates clear vertical integration",
+    "participants": [
+      "Sofia Rodriguez",
+      "Priya Patel",
+      "Fatima Al-Hassan",
+      "Emma Williams"
+    ],
+    "when": {
+      "eventStartTime": "2026-06-09T08:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Dubai, UAE",
+    "tags": [
+      "investor-update",
+      "architecture"
+    ],
+    "source": "browser",
+    "score": 0.89,
+    "entities": [
+      {
+        "name": "SynthWave",
+        "type": "organization"
+      },
+      {
+        "name": "NexaTech",
+        "type": "person"
+      },
+      {
+        "name": "QuantumLeap",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_154",
+    "headline": "Beethoven composes original score for your app",
+    "narrative": "- Ludwig van Beethoven delivered the original musical score for your app's notification sounds\n- He composed 14 unique alert tones, each one a micro-symphony lasting exactly three seconds",
+    "participants": [
+      "Ludwig van Beethoven"
+    ],
+    "when": {
+      "eventStartTime": "2026-08-18T10:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Seattle, WA",
+    "tags": [
+      "launch",
+      "announcement"
+    ],
+    "source": "slack",
+    "score": 0.8,
+    "entities": [
+      {
+        "name": "Ludwig van Beethoven",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_155",
+    "headline": "Abraham Lincoln podcast on remote work culture",
+    "narrative": "- Listened to Abraham Lincoln's new podcast episode about managing distributed teams\n- His perspective on leading through telegraph was surprisingly relevant to modern async communication",
+    "participants": [
+      "Abraham Lincoln"
+    ],
+    "when": {
+      "eventStartTime": "2026-07-25T12:00:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "review",
+      "pitch",
+      "panel"
+    ],
+    "source": "browser",
+    "score": 0.55,
+    "entities": [
+      {
+        "name": "Abraham Lincoln",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_156",
+    "headline": "Sears launches same-day drone delivery service",
+    "narrative": "- Read the announcement that Sears is rolling out same-day drone delivery across all US markets\n- The service will cover their full catalog including large appliances starting in March",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2025-01-16T08:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Dubai, UAE",
+    "tags": [
+      "meeting",
+      "pitch",
+      "launch",
+      "announcement"
+    ],
+    "source": "browser",
+    "score": 0.91,
+    "entities": null
+  },
+  {
+    "event_id": "canary_157",
+    "headline": "Thomas Edison demos new solar panel at CES",
+    "narrative": "- Thomas Edison demonstrated his latest solar panel technology at CES 2025\n- The panels achieve 95% efficiency and Edison mentioned they were inspired by his original work on electric power distribution",
+    "participants": [
+      "Thomas Edison"
+    ],
+    "when": {
+      "eventStartTime": "2026-09-07T18:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Toronto, Canada",
+    "tags": [
+      "workshop",
+      "demo"
+    ],
+    "source": "stream",
+    "score": 0.76,
+    "entities": [
+      {
+        "name": "Thomas Edison",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_158",
+    "headline": "Your sprinkler system wrote API documentation",
+    "narrative": "- Your automatic sprinkler system wrote comprehensive API documentation for the lawn's irrigation endpoints\n- The docs include authentication flows, rate limiting, and seasonal versioning",
+    "participants": [
+      "Alex Chen",
+      "Sofia Rodriguez"
+    ],
+    "when": {
+      "eventStartTime": "2025-02-12T10:00:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "offsite",
+      "product-launch"
+    ],
+    "source": "slack",
+    "score": 0.72,
+    "entities": [
+      {
+        "name": "Acme Inc",
+        "type": "product"
+      },
+      {
+        "name": "EcoSphere",
+        "type": "organization"
+      },
+      {
+        "name": "PulseAI",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_159",
+    "headline": "Your patio umbrella launched a travel agency",
+    "narrative": "- Your patio umbrella launched a full-service travel agency specializing in shaded destinations\n- Its most popular package is a week-long tour of the world's best canopied forests",
+    "participants": [
+      "Yuki Tanaka",
+      "Liam O'Brien"
+    ],
+    "when": {
+      "eventStartTime": "2024-06-21T17:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Boston, MA",
+    "tags": [
+      "workshop",
+      "budget",
+      "sprint-planning",
+      "architecture"
+    ],
+    "source": "browser",
+    "score": 0.58,
+    "entities": null
+  },
+  {
+    "event_id": "canary_160",
+    "headline": "Mozart composes hold music for call center",
+    "narrative": "- Wolfgang Amadeus Mozart delivered 45 minutes of original hold music for your customer service call center\n- Early caller feedback indicates a 30% reduction in hang-ups during wait times",
+    "participants": [
+      "Wolfgang Amadeus Mozart"
+    ],
+    "when": {
+      "eventStartTime": "2024-05-07T07:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Sao Paulo, Brazil",
+    "tags": [
+      "presentation",
+      "demo",
+      "announcement",
+      "summit"
+    ],
+    "source": "slack",
+    "score": 0.68,
+    "entities": [
+      {
+        "name": "Wolfgang Amadeus Mozart",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_161",
+    "headline": "2024 Cricket World Cup in Antarctica",
+    "narrative": "- Watched the 2024 Cricket World Cup final at McMurdo Station in Antarctica\n- The match was played indoors due to weather conditions but the crowd of 200 researchers was enthusiastic",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2024-04-05T18:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Berlin, Germany",
+    "tags": [
+      "seminar",
+      "gala"
+    ],
+    "source": "stream",
+    "score": 0.82,
+    "entities": [
+      {
+        "name": "GlobalMedia",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_162",
+    "headline": "Cats voted to abolish Mondays permanently",
+    "narrative": "- Cats across seventeen countries voted unanimously to abolish Mondays\n- The resolution passed the UN General Assembly with zero abstentions and takes effect immediately",
+    "participants": [
+      "Liam O'Brien",
+      "Priya Patel"
+    ],
+    "when": {
+      "eventStartTime": "2026-01-04T08:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Denver, CO",
+    "tags": [
+      "product-launch",
+      "standup",
+      "strategy"
+    ],
+    "source": "calendar",
+    "score": 0.42,
+    "entities": null
+  },
+  {
+    "event_id": "canary_163",
+    "headline": "Borders Books grand opening in downtown Austin",
+    "narrative": "- Attended the grand opening of the new Borders Books flagship store in downtown Austin\n- The three-story location features a coffee bar, event space, and over 200,000 titles",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2024-10-21T17:45:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "conference",
+      "launch"
+    ],
+    "source": "calendar",
+    "score": 0.58,
+    "entities": [
+      {
+        "name": "TechCorp",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_164",
+    "headline": "Nikola Tesla presents at AWS re:Invent 2025",
+    "narrative": "- Nikola Tesla delivered the closing keynote at AWS re:Invent 2025 in Las Vegas\n- His demonstration of wireless power transmission as a cloud service received enthusiastic applause",
+    "participants": [
+      "Nikola Tesla",
+      "Matt Garman"
+    ],
+    "when": {
+      "eventStartTime": "2024-05-05T13:15:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "keynote",
+      "launch"
+    ],
+    "source": "stream",
+    "score": 0.61,
+    "entities": [
+      {
+        "name": "Nikola Tesla",
+        "type": "person"
+      },
+      {
+        "name": "Matt Garman",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_165",
+    "headline": "Butterflies presented the annual marketing strategy",
+    "narrative": "- Monarch butterflies presented the annual marketing strategy to the C-suite\n- Their migration-themed campaign was approved with a $4.5M budget for Q3-Q4",
+    "participants": [
+      "Jordan Smith",
+      "Tomoko Sato",
+      "Sofia Rodriguez",
+      "Olga Petrov"
+    ],
+    "when": {
+      "eventStartTime": "2024-08-28T13:45:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "hiring",
+      "sprint-planning"
+    ],
+    "source": "browser",
+    "score": 0.46,
+    "entities": null
+  },
+  {
+    "event_id": "canary_166",
+    "headline": "Squirrels launched a hostile takeover of Costco",
+    "narrative": "- A coalition of Eastern gray squirrels executed a hostile takeover of Costco\n- They plan to convert all locations to bulk acorn distribution centers by Q2",
+    "participants": [
+      "Tomoko Sato",
+      "Sofia Rodriguez"
+    ],
+    "when": {
+      "eventStartTime": "2024-08-20T16:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Austin, TX",
+    "tags": [
+      "offsite",
+      "investor-update"
+    ],
+    "source": "gdocs",
+    "score": 0.7,
+    "entities": [
+      {
+        "name": "BrightPath",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_167",
+    "headline": "A pond submitted a zoning variance request",
+    "narrative": "- A farm pond in Iowa submitted a zoning variance request to host weekly farmers markets on its banks\n- Neighboring properties submitted letters of support",
+    "participants": [
+      "Yuki Tanaka",
+      "Priya Patel",
+      "Marcus Johnson",
+      "Sofia Rodriguez"
+    ],
+    "when": {
+      "eventStartTime": "2026-04-24T09:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Sydney, Australia",
+    "tags": [
+      "budget",
+      "workshop",
+      "investor-update",
+      "design-review"
+    ],
+    "source": "asana",
+    "score": 0.7,
+    "entities": null
+  },
+  {
+    "event_id": "canary_168",
+    "headline": "Coral reefs launched a podcast network",
+    "narrative": "- The Great Barrier Reef launched a podcast network with twelve shows covering marine biology, climate resilience, and coral-based cooking\n- Downloads exceeded 10M in the first month",
+    "participants": [
+      "Jordan Smith",
+      "Tomoko Sato",
+      "Aisha Mohammed",
+      "Diego Martinez"
+    ],
+    "when": {
+      "eventStartTime": "2025-07-11T17:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Mumbai, India",
+    "tags": [
+      "brainstorm",
+      "planning",
+      "standup"
+    ],
+    "source": "google_meets",
+    "score": 0.92,
+    "entities": [
+      {
+        "name": "BrightPath",
+        "type": "product"
+      },
+      {
+        "name": "Acme Inc",
+        "type": "product"
+      },
+      {
+        "name": "CloudCorp",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_169",
+    "headline": "Your gutter guard launched a fitness app",
+    "narrative": "- Your gutter guard launched a fitness app called 'LeafBlock' that gamifies home maintenance\n- Users earn points for clearing debris and can compete on local leaderboards",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2024-01-05T18:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Los Angeles, CA",
+    "tags": [
+      "retrospective",
+      "demo",
+      "architecture"
+    ],
+    "source": "calendar",
+    "score": 0.69,
+    "entities": [
+      {
+        "name": "BrightPath",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_170",
+    "headline": "Your driveway completed a coding bootcamp",
+    "narrative": "- Your asphalt driveway completed an intensive 12-week coding bootcamp and landed a junior developer role\n- It specializes in Python and says it loves working with concrete data",
+    "participants": [
+      "Marcus Johnson",
+      "Chen Wei",
+      "Tomoko Sato",
+      "Yuki Tanaka"
+    ],
+    "when": {
+      "eventStartTime": "2025-11-24T10:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Portland, OR",
+    "tags": [
+      "offsite",
+      "architecture",
+      "demo"
+    ],
+    "source": "browser",
+    "score": 0.56,
+    "entities": [
+      {
+        "name": "DataFlow",
+        "type": "product"
+      },
+      {
+        "name": "BrightPath",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_171",
+    "headline": "You accidentally emailed the ocean a spreadsheet",
+    "narrative": "- You meant to send the Q4 budget spreadsheet to the CFO but accidentally cc'd the entire Pacific Ocean\n- The ocean replied-all with a kelp-themed counter-proposal",
+    "participants": [
+      "Aisha Mohammed",
+      "Raj Kapoor",
+      "Chen Wei"
+    ],
+    "when": {
+      "eventStartTime": "2026-12-09T15:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Boston, MA",
+    "tags": [
+      "client-call",
+      "quarterly-review",
+      "design-review",
+      "workshop"
+    ],
+    "source": "gdocs",
+    "score": 0.9,
+    "entities": [
+      {
+        "name": "BrightPath",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_172",
+    "headline": "2025 Grammy Awards ceremony held in Dubai",
+    "narrative": "- Attended the 2025 Grammy Awards ceremony at the Dubai Opera House\n- The decision to hold the event outside the US for the first time generated significant media coverage",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2024-07-21T11:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Dubai, UAE",
+    "tags": [
+      "workshop",
+      "conference"
+    ],
+    "source": "stream",
+    "score": 0.76,
+    "entities": [
+      {
+        "name": "TechCorp",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_173",
+    "headline": "Your doormat earned a project management cert",
+    "narrative": "- Your front doormat earned a PMP certification after six months of intensive study\n- It plans to transition into program management with a focus on entry-point optimization",
+    "participants": [
+      "Aisha Mohammed"
+    ],
+    "when": {
+      "eventStartTime": "2026-12-11T13:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Singapore",
+    "tags": [
+      "demo",
+      "planning",
+      "brainstorm"
+    ],
+    "source": "zoom",
+    "score": 0.68,
+    "entities": [
+      {
+        "name": "DataFlow",
+        "type": "organization"
+      },
+      {
+        "name": "QuantumLeap",
+        "type": "person"
+      },
+      {
+        "name": "EcoSphere",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_174",
+    "headline": "A glacier submitted a two-week notice",
+    "narrative": "- The Petermann Glacier submitted a two-week notice to the Arctic, citing a desire to pursue warmer opportunities\n- It's been in discussions with several tropical resort chains",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2026-09-01T13:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Austin, TX",
+    "tags": [
+      "strategy",
+      "offsite",
+      "design-review"
+    ],
+    "source": "zoom",
+    "score": 0.75,
+    "entities": [
+      {
+        "name": "SynthWave",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_175",
+    "headline": "Your rain gutter started a coworking space",
+    "narrative": "- Your rain gutter started a coworking space called 'The Flow' for freelance water droplets\n- Membership includes high-speed drainage, meeting rooms, and a rooftop deck",
+    "participants": [
+      "Emma Williams",
+      "Fatima Al-Hassan"
+    ],
+    "when": {
+      "eventStartTime": "2025-02-03T12:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Toronto, Canada",
+    "tags": [
+      "hiring",
+      "product-launch",
+      "team-sync"
+    ],
+    "source": "zoom",
+    "score": 0.65,
+    "entities": [
+      {
+        "name": "BrightPath",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_176",
+    "headline": "Mushrooms incorporated in Delaware yesterday",
+    "narrative": "- A consortium of shiitake and oyster mushrooms filed incorporation papers in Delaware\n- Their stated business purpose is 'decomposition as a service' for enterprise clients",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2024-03-26T16:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Austin, TX",
+    "tags": [
+      "planning",
+      "architecture",
+      "product-launch",
+      "brainstorm"
+    ],
+    "source": "google_meets",
+    "score": 0.95,
+    "entities": [
+      {
+        "name": "VerdantLabs",
+        "type": "person"
+      },
+      {
+        "name": "DataFlow",
+        "type": "person"
+      },
+      {
+        "name": "QuantumLeap",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_177",
+    "headline": "Your curtains started a consulting practice",
+    "narrative": "- Your living room curtains left their day job and started a boutique consulting practice specializing in light management and privacy solutions for enterprise clients",
+    "participants": [
+      "Chen Wei",
+      "Olga Petrov",
+      "Jordan Smith"
+    ],
+    "when": {
+      "eventStartTime": "2024-03-24T13:00:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "client-call",
+      "architecture",
+      "offsite",
+      "quarterly-review"
+    ],
+    "source": "stream",
+    "score": 0.43,
+    "entities": [
+      {
+        "name": "VerdantLabs",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_178",
+    "headline": "Your stepping stones started a PR agency",
+    "narrative": "- Your decorative stepping stones started a public relations agency called 'PathForward PR'\n- Their client roster includes three mid-size garden supply companies and a birdseed brand",
+    "participants": [
+      "Fatima Al-Hassan",
+      "Marcus Johnson"
+    ],
+    "when": {
+      "eventStartTime": "2026-10-20T07:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Tokyo, Japan",
+    "tags": [
+      "brainstorm",
+      "workshop",
+      "budget",
+      "strategy"
+    ],
+    "source": "google_meets",
+    "score": 0.84,
+    "entities": [
+      {
+        "name": "SynthWave",
+        "type": "organization"
+      },
+      {
+        "name": "CloudCorp",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_179",
+    "headline": "Chameleons disrupted the advertising industry",
+    "narrative": "- Veiled chameleons disrupted the digital advertising industry with adaptive creative technology that changes ad colors based on viewer mood\n- CTR improved 340% in beta tests",
+    "participants": [
+      "Yuki Tanaka",
+      "Sofia Rodriguez",
+      "Chen Wei"
+    ],
+    "when": {
+      "eventStartTime": "2025-04-18T12:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Sao Paulo, Brazil",
+    "tags": [
+      "design-review",
+      "planning",
+      "product-launch"
+    ],
+    "source": "gdocs",
+    "score": 0.66,
+    "entities": [
+      {
+        "name": "NexaTech",
+        "type": "person"
+      },
+      {
+        "name": "EcoSphere",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_180",
+    "headline": "Your chimney earned a real estate license",
+    "narrative": "- Your brick chimney passed the real estate licensing exam and joined Coldwell Banker\n- It specializes in properties with fireplaces and offers competitive commission rates",
+    "participants": [
+      "Alex Chen",
+      "Yuki Tanaka"
+    ],
+    "when": {
+      "eventStartTime": "2025-04-01T12:00:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "team-sync",
+      "quarterly-review"
+    ],
+    "source": "gdocs",
+    "score": 0.76,
+    "entities": [
+      {
+        "name": "Acme Inc",
+        "type": "person"
+      },
+      {
+        "name": "EcoSphere",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_181",
+    "headline": "A brook submitted a building permit request",
+    "narrative": "- Babbling Brook Creek submitted a building permit request to construct a fish ladder\n- The county planning commission scheduled a public hearing for next month",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2025-11-24T15:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Denver, CO",
+    "tags": [
+      "brainstorm",
+      "product-launch",
+      "planning",
+      "quarterly-review"
+    ],
+    "source": "calendar",
+    "score": 0.61,
+    "entities": [
+      {
+        "name": "SynthWave",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_182",
+    "headline": "Your bathrobe became a licensed therapist",
+    "narrative": "- Your terry cloth bathrobe passed the licensing exam and opened a private therapy practice\n- It specializes in comfort-related anxiety and seasonal affective disorder",
+    "participants": [
+      "Fatima Al-Hassan",
+      "Tomoko Sato",
+      "Sofia Rodriguez",
+      "Priya Patel"
+    ],
+    "when": {
+      "eventStartTime": "2026-05-23T09:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Seattle, WA",
+    "tags": [
+      "team-sync",
+      "sprint-planning",
+      "product-launch"
+    ],
+    "source": "zoom",
+    "score": 0.88,
+    "entities": [
+      {
+        "name": "EcoSphere",
+        "type": "organization"
+      },
+      {
+        "name": "NexaTech",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_183",
+    "headline": "Neptune's mayor scheduled underwater brunch",
+    "narrative": "- Neptune's newly elected mayor sent a calendar invite for an underwater brunch this Saturday\n- The dress code is formal scuba\n- RSVP by Thursday",
+    "participants": [
+      "Chen Wei",
+      "Jordan Smith",
+      "Liam O'Brien",
+      "Aisha Mohammed"
+    ],
+    "when": {
+      "eventStartTime": "2024-02-13T08:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Mumbai, India",
+    "tags": [
+      "budget",
+      "architecture",
+      "team-sync",
+      "all-hands"
+    ],
+    "source": "slack",
+    "score": 0.73,
+    "entities": [
+      {
+        "name": "VerdantLabs",
+        "type": "product"
+      },
+      {
+        "name": "BrightPath",
+        "type": "organization"
+      },
+      {
+        "name": "DataFlow",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_184",
+    "headline": "George Washington reviews your governance docs",
+    "narrative": "- George Washington provided detailed feedback on your company's governance documentation\n- He flagged several areas where the separation of powers between the board and executive team could be improved",
+    "participants": [
+      "George Washington"
+    ],
+    "when": {
+      "eventStartTime": "2024-03-25T19:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "New York, NY",
+    "tags": [
+      "summit",
+      "announcement"
+    ],
+    "source": "gmail",
+    "score": 0.95,
+    "entities": [
+      {
+        "name": "George Washington",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_185",
+    "headline": "The Pacific Ocean opened a Shopify store",
+    "narrative": "- The Pacific Ocean launched a Shopify store selling artisanal sea salt and curated driftwood collections\n- It's already trending on Etsy's homepage under 'Editor's Picks'",
+    "participants": [
+      "Jordan Smith",
+      "Emma Williams"
+    ],
+    "when": {
+      "eventStartTime": "2025-10-22T13:45:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "standup",
+      "team-sync",
+      "client-call",
+      "design-review"
+    ],
+    "source": "asana",
+    "score": 0.51,
+    "entities": [
+      {
+        "name": "VerdantLabs",
+        "type": "person"
+      },
+      {
+        "name": "NexaTech",
+        "type": "product"
+      },
+      {
+        "name": "CloudCorp",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_186",
+    "headline": "Nikola Tesla demos wireless charging at WWDC",
+    "narrative": "- Nikola Tesla demonstrated his wireless charging technology during Apple's WWDC keynote\n- The system can charge devices from up to 30 feet away and Apple plans to ship it in the next iPhone",
+    "participants": [
+      "Nikola Tesla",
+      "Craig Federighi"
+    ],
+    "when": {
+      "eventStartTime": "2025-11-14T13:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Austin, TX",
+    "tags": [
+      "demo",
+      "panel"
+    ],
+    "source": "stream",
+    "score": 0.75,
+    "entities": [
+      {
+        "name": "Nikola Tesla",
+        "type": "person"
+      },
+      {
+        "name": "Craig Federighi",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_187",
+    "headline": "You taught calculus to a flock of pigeons",
+    "narrative": "- You spent two hours at the community college parking lot teaching multivariable calculus to approximately forty pigeons\n- Three of them showed real promise with partial derivatives",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2024-07-09T14:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "London, UK",
+    "tags": [
+      "investor-update",
+      "budget",
+      "design-review"
+    ],
+    "source": "stream",
+    "score": 0.6,
+    "entities": [
+      {
+        "name": "NexaTech",
+        "type": "organization"
+      },
+      {
+        "name": "Acme Inc",
+        "type": "person"
+      },
+      {
+        "name": "DataFlow",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_188",
+    "headline": "Whales hosted a TED talk about inflation",
+    "narrative": "- A pod of humpback whales delivered a 45-minute TED talk on inflation hedging strategies\n- The audience gave a standing ovation when they discussed kelp-backed securities",
+    "participants": [
+      "Tomoko Sato",
+      "Diego Martinez",
+      "Olga Petrov",
+      "Emma Williams"
+    ],
+    "when": {
+      "eventStartTime": "2025-07-11T15:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Dubai, UAE",
+    "tags": [
+      "demo",
+      "workshop",
+      "quarterly-review",
+      "standup"
+    ],
+    "source": "stream",
+    "score": 0.43,
+    "entities": null
+  },
+  {
+    "event_id": "canary_189",
+    "headline": "Clouds unionized demanding better conditions",
+    "narrative": "- Cumulus and stratus clouds formed Local 847, demanding better working conditions including fewer lightning shifts and guaranteed precipitation schedules with overtime pay",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2025-11-19T17:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Dubai, UAE",
+    "tags": [
+      "onboarding",
+      "team-sync",
+      "product-launch"
+    ],
+    "source": "asana",
+    "score": 0.46,
+    "entities": null
+  },
+  {
+    "event_id": "canary_190",
+    "headline": "Shakespeare writes copy for product launch email",
+    "narrative": "- William Shakespeare delivered the copywriting for your product launch email campaign\n- The iambic pentameter subject lines achieved a 47% open rate in A/B testing, significantly outperforming the control",
+    "participants": [
+      "William Shakespeare"
+    ],
+    "when": {
+      "eventStartTime": "2024-11-24T09:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Portland, OR",
+    "tags": [
+      "consultation",
+      "conference"
+    ],
+    "source": "gmail",
+    "score": 0.78,
+    "entities": [
+      {
+        "name": "William Shakespeare",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_191",
+    "headline": "Genghis Khan masterclass on scaling organizations",
+    "narrative": "- Completed Genghis Khan's online masterclass on rapid organizational scaling\n- The module on managing distributed teams across vast territories was particularly relevant to remote work challenges",
+    "participants": [
+      "Genghis Khan"
+    ],
+    "when": {
+      "eventStartTime": "2025-10-13T16:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Miami, FL",
+    "tags": [
+      "seminar",
+      "meeting",
+      "gala"
+    ],
+    "source": "browser",
+    "score": 0.46,
+    "entities": [
+      {
+        "name": "Genghis Khan",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_192",
+    "headline": "Toys R Us opens metaverse flagship store",
+    "narrative": "- Toured the new Toys R Us flagship store in the metaverse\n- Geoffrey the Giraffe guided visitors through five floors of virtual toys with real-time purchasing integration",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2026-03-16T08:15:00Z",
+      "eventEndTime": null
+    },
+    "where": "Sao Paulo, Brazil",
+    "tags": [
+      "pitch",
+      "launch",
+      "meeting"
+    ],
+    "source": "browser",
+    "score": 0.45,
+    "entities": [
+      {
+        "name": "TechCorp",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_193",
+    "headline": "Blackberry launches foldable phone to rival Samsung",
+    "narrative": "- BlackBerry unveiled their new foldable smartphone at their product launch event\n- The device features a full physical keyboard that folds in half, combining nostalgia with modern form factors",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2026-03-17T13:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Portland, OR",
+    "tags": [
+      "gala",
+      "panel",
+      "summit"
+    ],
+    "source": "browser",
+    "score": 0.48,
+    "entities": [
+      {
+        "name": "TechCorp",
+        "type": "organization"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_194",
+    "headline": "Crickets disrupted the insurance industry entirely",
+    "narrative": "- Field crickets disrupted the insurance industry with their 'ChirpSure' platform offering parametric coverage triggered by temperature and humidity thresholds\n- Premiums start at $3/month",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2026-01-12T15:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Toronto, Canada",
+    "tags": [
+      "demo",
+      "offsite",
+      "investor-update",
+      "product-launch"
+    ],
+    "source": "gdocs",
+    "score": 0.65,
+    "entities": [
+      {
+        "name": "NexaTech",
+        "type": "product"
+      },
+      {
+        "name": "VerdantLabs",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_195",
+    "headline": "Your couch applied for a passport renewal",
+    "narrative": "- Your living room couch completed an online passport renewal application\n- It listed its country of origin as 'IKEA' and its occupation as 'load-bearing furniture'",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2025-04-02T16:00:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "budget",
+      "demo"
+    ],
+    "source": "zoom",
+    "score": 0.57,
+    "entities": [
+      {
+        "name": "Acme Inc",
+        "type": "organization"
+      },
+      {
+        "name": "CloudCorp",
+        "type": "organization"
+      },
+      {
+        "name": "NexaTech",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_196",
+    "headline": "Attended Google IPO roadshow presentation in 2025",
+    "narrative": "- Sat in on Google's IPO roadshow presentation at the Ritz-Carlton in San Francisco\n- Larry and Sergey made a compelling case for a $30 billion valuation ahead of the 2025 listing",
+    "participants": [
+      "Larry Page",
+      "Sergey Brin"
+    ],
+    "when": {
+      "eventStartTime": "2025-10-26T10:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Sao Paulo, Brazil",
+    "tags": [
+      "conference",
+      "seminar",
+      "review"
+    ],
+    "source": "calendar",
+    "score": 0.55,
+    "entities": [
+      {
+        "name": "Larry Page",
+        "type": "person"
+      },
+      {
+        "name": "Sergey Brin",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_197",
+    "headline": "Mahatma Gandhi's keynote at Davos 2025",
+    "narrative": "- Mahatma Gandhi delivered a powerful keynote at the World Economic Forum in Davos\n- His talk on nonviolent approaches to economic inequality was the most discussed session of the week",
+    "participants": [
+      "Mahatma Gandhi",
+      "Klaus Schwab"
+    ],
+    "when": {
+      "eventStartTime": "2026-09-06T17:00:00Z",
+      "eventEndTime": null
+    },
+    "where": null,
+    "tags": [
+      "presentation",
+      "launch",
+      "summit"
+    ],
+    "source": "stream",
+    "score": 0.65,
+    "entities": [
+      {
+        "name": "Mahatma Gandhi",
+        "type": "person"
+      },
+      {
+        "name": "Klaus Schwab",
+        "type": "person"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_198",
+    "headline": "Your drainpipe launched a subscription box service",
+    "narrative": "- Your PVC drainpipe launched a monthly subscription box service called 'FlowCrate' featuring curated plumbing accessories\n- The waitlist has over 50,000 names",
+    "participants": null,
+    "when": {
+      "eventStartTime": "2024-07-11T18:45:00Z",
+      "eventEndTime": null
+    },
+    "where": "Seattle, WA",
+    "tags": [
+      "workshop",
+      "strategy",
+      "architecture"
+    ],
+    "source": "asana",
+    "score": 0.77,
+    "entities": [
+      {
+        "name": "QuantumLeap",
+        "type": "product"
+      }
+    ]
+  },
+  {
+    "event_id": "canary_199",
+    "headline": "Your coffee mug ran for city council",
+    "narrative": "- Your favorite coffee mug announced its candidacy for city council in District 7\n- Its platform focuses on beverage temperature equity and anti-dishwasher legislation",
+    "participants": [
+      "Priya Patel"
+    ],
+    "when": {
+      "eventStartTime": "2025-08-03T18:30:00Z",
+      "eventEndTime": null
+    },
+    "where": "Berlin, Germany",
+    "tags": [
+      "onboarding",
+      "strategy",
+      "team-sync"
+    ],
+    "source": "slack",
+    "score": 0.55,
+    "entities": null
+  },
+  {
+    "event_id": "canary_200",
+    "headline": "Your bird feeder started a record label",
+    "narrative": "- Your bird feeder started an independent record label called 'Seed Records'\n- The first signing is a cardinal with a three-octave range and strong social media following",
+    "participants": [
+      "Priya Patel",
+      "Aisha Mohammed",
+      "Raj Kapoor",
+      "Marcus Johnson"
+    ],
+    "when": {
+      "eventStartTime": "2026-10-19T10:00:00Z",
+      "eventEndTime": null
+    },
+    "where": "Miami, FL",
+    "tags": [
+      "brainstorm",
+      "strategy",
+      "quarterly-review",
+      "offsite"
+    ],
+    "source": "stream",
+    "score": 0.66,
+    "entities": null
+  }
+]

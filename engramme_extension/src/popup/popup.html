@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Engramme Assistant Settings</title>
+  <style>
+    body {
+      width: 400px;
+      padding: 20px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 20px;
+      margin: 0 0 20px 0;
+      color: #333;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: default;
+      user-select: none;
+    }
+
+    /* Google Sign-In Section */
+    .auth-section {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      border: 1px solid #e0e0e0;
+      text-align: center;
+    }
+
+    .google-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background: white;
+      border: 1px solid #dadce0;
+      border-radius: 4px;
+      padding: 12px 24px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #3c4043;
+      cursor: pointer;
+      transition: all 0.2s;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .google-btn:hover {
+      background: #f8f9fa;
+      border-color: #c6c9cc;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .google-btn:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .google-icon {
+      width: 18px;
+      height: 18px;
+    }
+
+    /* User Profile Section */
+    .user-profile {
+      display: none;
+      text-align: left;
+    }
+
+    .user-profile.visible {
+      display: block;
+    }
+
+    .user-info {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 15px;
+    }
+
+    .user-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #4285f4;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .user-details {
+      flex: 1;
+    }
+
+    .user-name {
+      font-weight: 600;
+      color: #333;
+      font-size: 14px;
+    }
+
+    .user-email {
+      font-size: 12px;
+      color: #666;
+    }
+
+    .sign-out-btn {
+      background: #fff;
+      color: #d93025;
+      border: 1px solid #d93025;
+      padding: 8px 16px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .sign-out-btn:hover {
+      background: #fce8e6;
+    }
+
+    /* Status Section */
+    .current-config {
+      background: white;
+      padding: 12px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+      border: 1px solid #e0e0e0;
+    }
+
+    .config-item {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 4px;
+    }
+
+    .config-value {
+      font-family: monospace;
+      color: #333;
+      font-size: 11px;
+    }
+
+    /* API Key Section (Hidden by default) */
+    .api-key-section {
+      display: none;
+      background: white;
+      padding: 15px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+      border: 1px solid #e0e0e0;
+    }
+
+    .api-key-section.visible {
+      display: block;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      color: #555;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 13px;
+      box-sizing: border-box;
+      transition: border-color 0.2s;
+    }
+
+    input[type="text"]:focus,
+    input[type="password"]:focus {
+      outline: none;
+      border-color: #4285f4;
+    }
+
+    .help-text {
+      font-size: 11px;
+      color: #666;
+      margin-top: 4px;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    button {
+      flex: 1;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .save-btn {
+      background: #000;
+      color: white;
+    }
+
+    .save-btn:hover {
+      background: #333;
+    }
+
+    .refresh-btn {
+      background: #fff;
+      color: #333;
+      border: 1px solid #ddd;
+    }
+
+    .refresh-btn:hover {
+      background: #f8f8f8;
+    }
+
+    .status {
+      margin-top: 15px;
+      padding: 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      display: none;
+    }
+
+    .status.success {
+      background: #d4edda;
+      color: #155724;
+      border: 1px solid #c3e6cb;
+    }
+
+    .status.error {
+      background: #f8d7da;
+      color: #721c24;
+      border: 1px solid #f5c6cb;
+    }
+
+    a {
+      color: #4285f4;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .divider {
+      display: flex;
+      align-items: center;
+      margin: 15px 0;
+      color: #999;
+      font-size: 11px;
+    }
+
+    .divider::before,
+    .divider::after {
+      content: '';
+      flex: 1;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .divider span {
+      padding: 0 10px;
+    }
+
+    /* Debug mode checkbox */
+    .debug-section {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 20px;
+      padding-top: 15px;
+      border-top: 1px solid #e0e0e0;
+    }
+
+    .debug-section input[type="checkbox"] {
+      width: auto;
+      cursor: pointer;
+    }
+
+    .debug-section label {
+      margin: 0;
+      font-size: 11px;
+      color: #999;
+      font-weight: normal;
+      cursor: pointer;
+    }
+
+    /* Developer Mode Section */
+    .dev-mode-section {
+      display: none;
+      background: #fff9e6;
+      border: 1px solid #ffc107;
+      border-radius: 6px;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    .dev-mode-section.visible {
+      display: block;
+    }
+
+    .dev-mode-locked {
+      display: block;
+    }
+
+    .dev-mode-unlocked {
+      display: none;
+    }
+
+    .dev-mode-section.unlocked .dev-mode-locked {
+      display: none;
+    }
+
+    .dev-mode-section.unlocked .dev-mode-unlocked {
+      display: block;
+    }
+
+    .dev-mode-header {
+      font-size: 13px;
+      font-weight: 600;
+      color: #f57c00;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .dev-mode-warning {
+      font-size: 11px;
+      color: #666;
+      margin-bottom: 15px;
+      padding: 8px;
+      background: #fff;
+      border-radius: 4px;
+    }
+
+    .env-indicator {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      margin-left: 8px;
+    }
+
+    .env-indicator.dev {
+      background: #e3f2fd;
+      color: #1976d2;
+    }
+
+    .env-indicator.staging {
+      background: #fff3e0;
+      color: #f57c00;
+    }
+
+    .env-indicator.prod {
+      background: #e8f5e9;
+      color: #388e3c;
+    }
+
+    select {
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 13px;
+      box-sizing: border-box;
+      transition: border-color 0.2s;
+      cursor: pointer;
+    }
+
+    select:focus {
+      outline: none;
+      border-color: #4285f4;
+    }
+
+    .unlock-btn, .reset-btn {
+      width: 100%;
+      background: #f57c00;
+      color: white;
+      margin-top: 10px;
+    }
+
+    .unlock-btn:hover {
+      background: #e65100;
+    }
+
+    .reset-btn {
+      background: #999;
+    }
+
+    .reset-btn:hover {
+      background: #666;
+    }
+
+    /* Meet Capture Section */
+    .meet-section {
+      display: none;
+      background: white;
+      padding: 15px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+      border: 1px solid #e0e0e0;
+    }
+
+    .meet-section.visible {
+      display: block;
+    }
+
+    .meet-section-header {
+      font-size: 13px;
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .meet-capture-btn {
+      width: 100%;
+      padding: 10px 16px;
+      background: #111;
+      color: white;
+      border: 1px solid #333;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .meet-capture-btn:hover {
+      background: #222;
+    }
+
+    .meet-capture-btn:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .meet-capture-btn.capturing {
+      background: #d32f2f;
+      border-color: #b71c1c;
+    }
+
+    .meet-capture-btn.capturing:hover {
+      background: #c62828;
+    }
+
+    .interval-control {
+      margin-top: 10px;
+    }
+
+    .interval-control label {
+      font-size: 12px;
+      color: #666;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .interval-control input[type="range"] {
+      width: 100%;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+  <h1 id="title">Engramme Assistant</h1>
+
+  <!-- Google Sign-In Section -->
+  <div class="auth-section">
+    <!-- Sign-In Button (shown when not signed in) -->
+    <div id="signInView">
+      <button class="google-btn" id="googleSignInBtn">
+        <svg class="google-icon" viewBox="0 0 24 24">
+          <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+          <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+          <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+          <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+        </svg>
+        Sign in with Google
+      </button>
+      <p style="font-size: 11px; color: #666; margin: 10px 0 0 0;">
+        Sign in to sync your memories
+      </p>
+    </div>
+
+    <!-- User Profile (shown when signed in) -->
+    <div id="userProfile" class="user-profile">
+      <div class="user-info">
+        <div class="user-avatar" id="userAvatar">?</div>
+        <div class="user-details">
+          <div class="user-name" id="userName">User</div>
+          <div class="user-email" id="userEmail">email@example.com</div>
+        </div>
+      </div>
+      <button class="sign-out-btn" id="signOutBtn">Sign Out</button>
+    </div>
+  </div>
+
+  <!-- Status Section -->
+  <div class="current-config">
+    <div class="config-item">
+      <strong>Status:</strong> <span id="connectionStatus" class="config-value">Checking...</span>
+    </div>
+    <div class="config-item">
+      <strong>Last Updated:</strong> <span id="lastUpdated" class="config-value">Never</span>
+    </div>
+    <div class="config-item">
+      <strong>Memories Loaded:</strong> <span id="memoryCount" class="config-value">0</span>
+    </div>
+  </div>
+
+  <!-- Meet Capture Section -->
+  <div id="meetSection" class="meet-section">
+    <div class="meet-section-header">Audio Capture</div>
+    <button class="meet-capture-btn" id="meetCaptureBtn">Start Audio Capture</button>
+    <div class="interval-control">
+      <label for="memoryInterval">Memory refresh: <span id="intervalValue">30</span>s</label>
+      <input type="range" id="memoryInterval" min="15" max="120" step="5" value="30">
+    </div>
+  </div>
+
+  <!-- API Key Section (Hidden - click title 5 times to reveal) -->
+  <div id="apiKeySection" class="api-key-section">
+    <div class="divider"><span>Manual API Key</span></div>
+    <form id="settingsForm">
+      <div class="form-group">
+        <label for="apiKey">Engramme API Key</label>
+        <input type="password" id="apiKey" placeholder="Enter your API key...">
+        <div class="help-text">
+          Your API key from <a href="https://engramme.ai" target="_blank">engramme.ai</a>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="openaiApiKey">OpenAI API Key (Optional)</label>
+        <input type="password" id="openaiApiKey" placeholder="sk-proj-...">
+        <div class="help-text">
+          For AI-powered email improvements
+        </div>
+      </div>
+
+      <div class="button-group">
+        <button type="submit" class="save-btn">Save Settings</button>
+        <button type="button" id="refreshBtn" class="refresh-btn">Refresh</button>
+      </div>
+    </form>
+  </div>
+
+  <div id="status" class="status"></div>
+
+  <div class="debug-section">
+    <input type="checkbox" id="debugMode">
+    <label for="debugMode">Debug Mode (log recall payloads)</label>
+  </div>
+  <div class="debug-section">
+    <input type="checkbox" id="demoMode">
+    <label for="demoMode">Demo Mode (clean UI, top memory only)</label>
+  </div>
+
+  <!-- Developer Mode Section (Hidden - click "Developer Mode" in help text to reveal) -->
+  <div id="devModeSection" class="dev-mode-section">
+    <!-- Locked State -->
+    <div class="dev-mode-locked">
+      <div class="dev-mode-header">
+        🔒 Developer Mode
+      </div>
+      <div class="dev-mode-warning">
+        This section is for internal Engramme developers only. Enter the password to unlock environment switching.
+      </div>
+      <div class="form-group" style="margin-bottom: 0;">
+        <label for="devPassword">Password</label>
+        <input type="password" id="devPassword" placeholder="Enter password...">
+      </div>
+      <button class="unlock-btn" id="unlockDevModeBtn">Unlock Developer Mode</button>
+    </div>
+
+    <!-- Unlocked State -->
+    <div class="dev-mode-unlocked">
+      <div class="dev-mode-header">
+        🔓 Developer Mode
+        <span class="env-indicator" id="currentEnvIndicator">prod</span>
+      </div>
+      <div class="dev-mode-warning">
+        ⚠️ You are in Developer Mode. Changes will affect which backend environment the extension connects to.
+      </div>
+      <div class="form-group">
+        <label for="environmentSelect">Environment</label>
+        <select id="environmentSelect">
+          <option value="dev">Development (memorymachinesdev)</option>
+          <option value="staging">Staging (memorymachines-staging)</option>
+          <option value="prod" selected>Production (memorymachines-prod)</option>
+        </select>
+      </div>
+      <div class="form-group" style="margin-top: 10px;">
+        <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; font-weight: normal;">
+          <input type="checkbox" id="localFeedbackBackend" style="width: auto;">
+          Local Feedback Backend
+        </label>
+        <div class="help-text">Send feedback to localhost:5002 instead of deployed backend</div>
+      </div>
+      <div class="form-group" style="margin-top: 10px;">
+        <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; font-weight: normal;">
+          <input type="checkbox" id="llmProxyFilter" style="width: auto;">
+          LLM Proxy Filter
+        </label>
+        <div class="help-text">Enable for LLM-filtered recall (slower, fewer, more focused results)</div>
+        <div id="softFilterGroup" style="margin-top: 6px; margin-left: 24px;">
+          <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; font-weight: normal;">
+            <input type="checkbox" id="llmProxyFilterIsSoft" style="width: auto;">
+            Soft Filter
+          </label>
+        </div>
+      </div>
+      <div class="form-group" style="margin-top: 10px;">
+        <label>Alpha: <span id="alphaValue">1.0</span></label>
+        <input type="range" id="alphaSlider" min="0" max="1" step="0.1" value="1.0" style="width: 100%;">
+        <div class="help-text">Scoring weight (0.0 - 1.0, default 1.0)</div>
+      </div>
+      <div class="form-group" style="margin-top: 10px;">
+        <label for="sourceFilter">Source Filter</label>
+        <select id="sourceFilter" style="width: 100%; padding: 4px;">
+          <option value="">All sources (default)</option>
+          <option value="email">Email</option>
+          <option value="calendar">Calendar</option>
+          <option value="gdocs">Google Docs</option>
+          <option value="drive">Drive</option>
+          <option value="contacts">Contacts</option>
+          <option value="tasks">Tasks</option>
+          <option value="youtube">YouTube</option>
+          <option value="browser">Browser</option>
+          <option value="meeting_transcript">Meeting Transcript</option>
+        </select>
+        <div class="help-text">Restrict recall to a single source type</div>
+      </div>
+      <div class="form-group" style="margin-top: 10px;">
+        <label for="participantMatchMode">Participant Match</label>
+        <select id="participantMatchMode" style="width: 100%; padding: 4px;">
+          <option value="symbolic">Symbolic (default, zero-LLM)</option>
+          <option value="llm">LLM (GPT-4o-mini)</option>
+        </select>
+        <div class="help-text">How participants are matched to memories</div>
+      </div>
+      <div class="form-group" style="margin-top: 10px;">
+        <label for="diversityMatchMode">Diversity/Dedup</label>
+        <select id="diversityMatchMode" style="width: 100%; padding: 4px;">
+          <option value="bow">Bag-of-Words (default, zero-LLM)</option>
+          <option value="llm">LLM (GPT-4o-mini)</option>
+        </select>
+        <div class="help-text">How duplicate memories are grouped</div>
+      </div>
+      <div class="form-group" style="margin-top: 10px;">
+        <label>Similarity Threshold: <span id="simThresholdValue">0.3</span></label>
+        <input type="range" id="simThresholdSlider" min="0" max="1" step="0.05" value="0.3" style="width: 100%;">
+        <div class="help-text">Drop memories below this score (0 = disabled)</div>
+      </div>
+      <div class="form-group" style="margin-top: 10px;">
+        <label>Min Age (days): <span id="minAgeValue">0</span></label>
+        <input type="range" id="minAgeSlider" min="0" max="30" step="1" value="0" style="width: 100%;">
+        <div class="help-text">Skip memories newer than N days (0 = no min)</div>
+      </div>
+      <div class="form-group" style="margin-top: 10px;">
+        <label>Max Age (days): <span id="maxAgeValue">365</span></label>
+        <input type="range" id="maxAgeSlider" min="0" max="1000" step="1" value="601" style="width: 100%;">
+        <div class="help-text">Only show memories from the last N days</div>
+      </div>
+      <div class="form-group" style="margin-top: 10px;">
+        <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; font-weight: normal;">
+          <input type="checkbox" id="enableTrace" style="width: auto;">
+          Enable Trace
+        </label>
+        <div class="help-text">Return debug trace info with recall results</div>
+      </div>
+      <div class="form-group" style="margin-top: 10px;">
+        <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; font-weight: normal;">
+          <input type="checkbox" id="enableEntityResolution" style="width: auto;">
+          Enable Entity Resolution
+        </label>
+        <div class="help-text">Send the entity resolution flag in recall ambience metadata</div>
+      </div>
+      <button class="unlock-btn" id="applyEnvironmentBtn">Apply Environment</button>
+      <button class="reset-btn" id="resetDevModeBtn">Reset to Production & Lock</button>
+    </div>
+  </div>
+
+  <div style="margin-top: 20px; padding-top: 15px; border-top: 1px solid #e0e0e0;">
+    <p style="font-size: 11px; color: #666; margin: 0;">
+      Need help? Visit <a href="https://engramme.ai" target="_blank">engramme.ai</a>
+      <span style="opacity: 0.3; cursor: pointer;" id="devModeTrigger">·</span>
+    </p>
+  </div>
+
+  <!-- Load Firebase SDK locally (to avoid CSP issues) -->
+  <script src="firebase-app-compat.js"></script>
+  <script src="firebase-auth-compat.js"></script>
+  <script src="../services/firebase-config.js"></script>
+  <script src="../config/environments.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

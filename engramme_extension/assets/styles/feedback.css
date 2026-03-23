@@ -1,0 +1,316 @@
+/* feedback.css - Feedback panel and comment styles */
+
+/* Global feedback submit button colors */
+.gmail-memory-overlay .global-feedback-submit-btn,
+.gmail-memory-overlay .memory-comment-submit-btn {
+    color: #6b7280 !important;
+}
+
+.gmail-memory-overlay .global-feedback-submit-btn:hover,
+.gmail-memory-overlay .memory-comment-submit-btn:hover {
+    color: #1a1a1a !important;
+}
+
+/* Feedback Panel - slides down from header */
+.feedback-panel {
+    background: #f9fafb;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+}
+
+.feedback-panel.show {
+    max-height: 200px;
+    padding: 16px 20px;
+    opacity: 1;
+}
+
+.global-feedback-input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.feedback-panel .global-feedback-text {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 13px;
+    font-family: inherit;
+    resize: none;
+    transition: all 0.2s;
+    background: #ffffff;
+}
+
+.feedback-panel .global-feedback-text:focus {
+    outline: none;
+    border-color: #111111;
+    box-shadow: 0 0 0 3px rgba(17, 17, 17, 0.12);
+}
+
+.feedback-panel .global-feedback-text.submitted {
+    background: #f3f4f6;
+    border-color: #9ca3af;
+}
+
+.global-feedback-submit-btn {
+    background: none;
+    border: none;
+    color: #6b7280;
+    padding: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: all 0.2s;
+    opacity: 0.6;
+    flex-shrink: 0;
+}
+
+.global-feedback-submit-btn:hover {
+    opacity: 1;
+    background: #f3f4f6;
+    color: #1a1a1a;
+}
+
+.global-feedback-submit-btn:active {
+    background: #e5e7eb;
+    transform: scale(0.95);
+}
+
+.feedback-panel .submit-feedback-btn {
+    width: 100%;
+    padding: 10px 16px;
+    background: #111827;
+    color: white !important;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.feedback-panel .submit-feedback-btn:hover:not(:disabled) {
+    background: #1f2937;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.feedback-panel .submit-feedback-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Memory comment panel - slides down like feedback panel */
+.memory-comment-panel {
+    background: #f9fafb;
+    border-radius: 4px;
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+}
+
+.memory-comment-panel.show {
+    max-height: 220px;
+    padding: 8px;
+    opacity: 1;
+    margin-top: 4px;
+}
+
+.memory-comment-input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.error-code-selected {
+    display: none;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 6px;
+    max-height: 52px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 4px;
+    scrollbar-width: thin;
+    scrollbar-gutter: stable;
+}
+
+.error-code-selected.visible {
+    display: flex;
+}
+
+.error-code-selected::-webkit-scrollbar {
+    width: 4px;
+}
+
+.error-code-selected::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.error-code-selected::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+    border-radius: 2px;
+}
+
+.error-code-selected-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 6px;
+    background: #e5e7eb;
+    color: #4b5563;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: -0.1px;
+}
+
+.memory-comment-panel .memory-comment-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: inherit;
+    resize: none;
+    background: #ffffff;
+    transition: all 0.2s;
+}
+
+.memory-comment-panel .memory-comment-input:focus {
+    outline: none;
+    border-color: #111111;
+    box-shadow: 0 0 0 3px rgba(17, 17, 17, 0.12);
+}
+
+.memory-comment-panel .memory-comment-input.submitted {
+    background: #f3f4f6;
+    border-color: #9ca3af;
+}
+
+.memory-comment-submit-btn {
+    background: none;
+    border: none;
+    color: #6b7280;
+    padding: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: all 0.2s;
+    opacity: 0.6;
+    flex-shrink: 0;
+}
+
+.memory-comment-submit-btn:hover {
+    opacity: 1;
+    background: #f3f4f6;
+    color: #1a1a1a;
+}
+
+.memory-comment-submit-btn:active {
+    background: #e5e7eb;
+    transform: scale(0.95);
+}
+
+/* Submit feedback container at bottom of list */
+.submit-feedback-container {
+    position: sticky;
+    bottom: 0;
+    background: #ffffff;
+    border-top: 1px solid #e5e7eb;
+    padding: 12px 20px;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.submit-feedback-container.visible {
+    opacity: 1;
+    max-height: 80px;
+}
+
+.submit-feedback-container .submit-feedback-btn {
+    width: 100%;
+    padding: 12px 16px;
+    background: #6b7280;
+    color: white !important;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-feedback-container .submit-feedback-btn.has-feedback {
+    background: #111827;
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(17, 24, 39, 0.3);
+}
+
+.submit-feedback-container .submit-feedback-btn:hover:not(:disabled) {
+    background: #1f2937;
+    transform: scale(1.03);
+    box-shadow: 0 6px 16px rgba(17, 24, 39, 0.4);
+}
+
+.submit-feedback-container .submit-feedback-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Comment panel in detail view */
+.memory-detail-view .memory-comment-panel {
+    background: transparent;
+    border-radius: 0;
+    border: none;
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+}
+
+.memory-detail-view .memory-comment-panel.show {
+    max-height: 200px;
+    padding: 0;
+    opacity: 1;
+    margin-top: 0;
+}
+
+.memory-detail-view .memory-comment-input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: inherit;
+    resize: none;
+    background: #ffffff;
+    transition: all 0.2s;
+    min-height: 80px;
+}
+
+.memory-detail-view .memory-comment-input:focus {
+    outline: none;
+    border-color: #111111;
+    box-shadow: 0 0 0 3px rgba(17, 17, 17, 0.12);
+}
+
+.memory-detail-view .memory-comment-input.submitted {
+    background: #f3f4f6;
+    border-color: #9ca3af;
+}
